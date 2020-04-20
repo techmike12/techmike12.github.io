@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 900px;
+    margin: 0 auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+header {
+    border-radius: 12px;
+    background-color: rgb(5, 23, 82);
+    height: 130px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+h1, h2 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2 {
+    font-size: 1.8em;
+}
+
+section {
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
+
+hr {
+    width: 80%;
+    margin-right: 20%;
+    margin-top: -20px;
+}
+
+footer {
+    border-radius: 12px;
+    background-color: rgb(5, 23, 82);
+    height: 90px;
+    width: 100%;
+    color: white;
+    font-size: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+a:visited {
+    color: #FAEFFA;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+li a:link {
+    color: rgb(28, 165, 189);
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+#Name {
+    font-size: 3em;
+    margin-bottom: 20%;
+    margin-left: 20px;
+    text-align: center;
+    color: white;
+
+}
+
+#familypic {
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+#pic {
+    max-width: 200px;
+    height: auto;
+    box-shadow: 0 4px 8px 0 rgb(5, 23, 82);
+    border-radius: 0 12px 0 0;
+}
+
+#modified {
+    font-size: 0.8em;
+    padding-top: 3px;
+}
