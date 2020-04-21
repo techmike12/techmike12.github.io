@@ -75,3 +75,8 @@ li a:link {
     font-size: 0.7em;
     padding-top: 5px;
 }
+
+hr {
+    margin-top: -20px;
+    margin-bottom: -10px;
+}
