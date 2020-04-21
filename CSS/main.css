@@ -74,6 +74,7 @@ li a:link {
 #modified {
     font-size: 0.7em;
     padding-top: 5px;
+    color: rgb(28, 165, 189);
 }
 
 hr {
