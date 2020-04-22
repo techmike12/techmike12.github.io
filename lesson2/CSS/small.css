@@ -10,7 +10,6 @@ header {
 h1 {
     font-size: 3em;
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 h2,h3 {
@@ -25,6 +24,8 @@ section {
     flex-direction: column;
     width:50%;
     height:90%;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .pic {

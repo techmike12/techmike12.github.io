@@ -1,5 +1,4 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
     max-width: 900px;
     margin: auto;
     padding-left: 10px;
@@ -7,9 +6,9 @@ body {
 }
 
 header {
-    border-radius: 15px;
+    font-size: .5em;
     background-color: rgb(5, 23, 82);
-    height: 120px;
+    height: 100px;
     margin-top: 5px;
     display: flex;
     justify-content: space-between;
@@ -17,7 +16,7 @@ header {
 }
 
 h2 {
-    font-size: 1.8em;
+    font-size: .8em;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -29,12 +28,12 @@ section {
 }
 
 footer {
-    border-radius: 12px;
     background-color: rgb(5, 23, 82);
     height: 50px;
     width: 100%;
     color: white;
-    font-size: 1em;
+    font-size: .8em;
+    font-family: Arial, Helvetica, sans-serif;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -55,10 +54,9 @@ li a:link {
 #Name {
     font-size: 3em;
     margin-bottom: 20%;
-    margin-left: 25%;
+    margin-left: 15%;
     text-align: center;
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 #pic {
@@ -71,12 +69,13 @@ li a:link {
 }
 
 #modified {
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 0.7em;
     padding-top: 5px;
     color: rgb(28, 165, 189);
 }
 
 hr {
-    margin-top: -20px;
+    margin-top: -5px;
     margin-bottom: -10px;
 }
