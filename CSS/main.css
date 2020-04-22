@@ -1,7 +1,7 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     max-width: 900px;
-    margin: 0 auto;
+    margin: auto;
     padding-left: 10px;
     padding-right: 10px;
 }
@@ -59,7 +59,6 @@ li a:link {
     text-align: center;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
 }
 
 #pic {
