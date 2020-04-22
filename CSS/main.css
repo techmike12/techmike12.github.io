@@ -68,7 +68,7 @@ li a:link {
     margin-top: 15px;
     margin-right: 15px;
     margin-bottom: 20px;
-    border-radius: 0 12px 0 0;
+    border-radius: 12px;
 }
 
 #modified {
