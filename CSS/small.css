@@ -39,13 +39,13 @@ footer {
     justify-content: center;
     flex-direction: column;
 }
-a:link {
+a {
     color: white;
     background-color: transparent;
     text-decoration: underline;
 }
 
-li a:link {
+li a {
     color: rgb(28, 165, 189);
     background-color: transparent;
     text-decoration: underline;
