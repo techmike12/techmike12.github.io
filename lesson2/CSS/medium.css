@@ -22,7 +22,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        flex-direction: column;
+        flex-direction: row;
         width:50%;
         height:90%;
         padding-left: 10px;
