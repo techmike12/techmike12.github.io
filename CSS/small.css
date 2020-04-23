@@ -8,11 +8,11 @@ body {
 header {
     font-size: .5em;
     background-color: rgb(5, 23, 82);
-    height: 100px;
+
     margin-top: 5px;
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
+    align-items: center;
 }
 
 h2 {
