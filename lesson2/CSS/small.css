@@ -32,7 +32,8 @@ p {
 main {
     display: grid;
     grid-template-columns: 1fr;
-    margin-bottom: 5px;
+    margin:auto;
+
 }
 
 section {
