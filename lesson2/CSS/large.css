@@ -2,8 +2,6 @@
 	main {
 		grid-template-columns: 1fr 1fr 1fr;
 		max-width: 1300px;
-        margin-left: auto;
-        margin-right: auto;
 	}
 
 	section:nth-child(3) {
