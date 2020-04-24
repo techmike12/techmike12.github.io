@@ -31,15 +31,6 @@
         padding-right: 10px;
     }
     
-    header {
-        background-color: rgb(5, 23, 82);
-        height: 100px;
-        margin-top: 5px;
-        display: flex;
-        justify-content: space-between;
-        flex-wrap: wrap;
-    }
-    
     h2 {
         font-size: 1.5em;
         font-family: Arial, Helvetica, sans-serif;
