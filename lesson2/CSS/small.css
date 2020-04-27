@@ -57,7 +57,7 @@ section {
 }
 
 a {
-    color: rgb(255, 255, 255);
+    color: rgb(28, 165, 189);
     background-color: transparent;
     text-decoration: underline;
 }
@@ -79,5 +79,5 @@ footer {
 #modified {
     font-size: 0.7em;
     padding-top: 5px;
-    color: rgb(28, 165, 189);
+    color: white;
 }
