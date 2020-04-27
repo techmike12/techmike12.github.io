@@ -42,12 +42,6 @@ footer {
 }
 
 a {
-    color: white;
-    background-color: transparent;
-    text-decoration: underline;
-}
-
-li a {
     color: rgb(28, 165, 189);
     background-color: transparent;
     text-decoration: underline;
