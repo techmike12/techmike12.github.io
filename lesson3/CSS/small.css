@@ -1,0 +1,65 @@
+#title {
+    font-size: 2em;
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+    margin-right: 75%;
+}
+
+header {
+    margin-top: 5px;
+    background-color: rgb(5, 23, 82);
+    border-radius: 12px;
+    height: 90px;
+    border: 2px solid rgb(28, 165, 189);
+}
+
+h1{
+    font-size: 2em;
+    color: white;
+}
+
+/*section {
+    background-color: rgb(5, 23, 82);
+    border-radius: 12px;
+    margin: 10px;
+    padding: 5px 0px 5px 0px;
+    text-align: center;
+    border: 2px solid rgb(28, 165, 189);
+}*/
+
+#logo {
+    display: block;
+    border-radius: 12px;
+    max-width: 90%;
+    height: 60px;
+    margin-left: 10px;
+    margin-top: 10px;
+    border: 2px solid rgb(28, 165, 189);
+}
+
+a {
+    color: rgb(28, 165, 189);
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+footer {
+    background-color: rgb(5, 23, 82);
+    height: 50px;
+    width: 100%;
+    color: white;
+    font-size: .8em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 12px;
+    border: 2px solid rgb(28, 165, 189);
+}
+
+#modified {
+    font-size: 0.7em;
+    padding-top: 5px;
+    color: rgb(28, 165, 189);
+}
