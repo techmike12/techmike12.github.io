@@ -2,7 +2,7 @@
     font-size: 2em;
     text-align: center;
     color: white;
-    padding: 5px;
+    margin-top: 10px;
 }
 
 header {
@@ -55,7 +55,7 @@ section {
 }
 
 a {
-    color: rgb(28, 165, 189);
+    color: rgb(255, 255, 255);
     background-color: transparent;
     text-decoration: underline;
 }
@@ -77,5 +77,5 @@ footer {
 #modified {
     font-size: 0.7em;
     padding-top: 5px;
-    color: white;
+    color: rgb(28, 165, 189);
 }
