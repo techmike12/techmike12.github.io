@@ -16,8 +16,6 @@ header {
 h1, h2{
     font-size: 2em;
     color: white;
-    margin-block-start: auto;
-    margin-block-end: auto;
 }
 
 h3 {
