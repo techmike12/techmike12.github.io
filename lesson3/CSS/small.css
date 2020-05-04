@@ -20,10 +20,6 @@ p {
     font-size: 1em;
 }
 
-td {
-    width: 20%;
-}
-
 nav {
     background-color: rgb(5, 23, 82);
     text-align: center;
@@ -66,12 +62,24 @@ h2 {
     text-decoration: underline;
 }
 
+.tableTitle {
+    font-weight: bold;
+    width: 20%;
+}
+
+td ul {
+    padding: 0px;
+    margin: 5px 0px 0px 0px;
+}
+
+#table {
+    margin-left: 25px;
+}
+
 section {
     max-width: 900px;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 15px;
-    padding-right: 15px;
 }
 
 #logo {
