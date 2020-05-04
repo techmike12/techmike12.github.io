@@ -1,10 +1,10 @@
 #title {
     font-size: 2em;
-    text-align: center;
+    text-align: right;
     align-items: center;
     color: white;
     margin-top: -65px;
-    margin-left: 50px;
+    margin-right: 10px;
 }
 
 header {
@@ -38,19 +38,20 @@ nav a:hover {
 	color: #36454f;
 }
 
+.active {
+	color: rgb(28, 165, 189);
+}
+
 h1{
     font-size: 2em;
     color: white;
 }
 
-/*section {
-    background-color: rgb(5, 23, 82);
-    border-radius: 12px;
+section {
     margin: 10px;
     padding: 5px 0px 5px 0px;
-    text-align: center;
-    border: 2px solid rgb(28, 165, 189);
-}*/
+    text-align: left;
+}
 
 #logo {
     display: block;
