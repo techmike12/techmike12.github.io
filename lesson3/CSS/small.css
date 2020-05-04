@@ -89,6 +89,7 @@ section {
     height: 60px;
     margin-left: 10px;
     margin-top: 10px;
+    border: 2px solid rgb(28, 165, 189);
 }
 
 #color {
