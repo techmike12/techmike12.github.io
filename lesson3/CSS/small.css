@@ -14,6 +14,10 @@ header {
     border: 2px solid rgb(28, 165, 189);
 }
 
+p {
+    margin: 0 0 10px 0;
+}
+
 nav {
     background-color: rgb(5, 23, 82);
     text-align: center;
@@ -45,6 +49,10 @@ nav a:hover {
 h1{
     font-size: 2em;
     color: white;
+}
+
+h3 {
+    margin: 0;
 }
 
 section {
