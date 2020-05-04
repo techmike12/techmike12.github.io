@@ -3,6 +3,10 @@
         font-size: 4em;
     }
 
+    nav ul { display: flex; }
+    nav ul li { flex: 1 1 100%; }
+
     footer {
         font-size: 1em;
     }
+}

@@ -10,9 +10,32 @@
 header {
     margin-top: 5px;
     background-color: rgb(5, 23, 82);
-    border-radius: 12px;
     height: 90px;
     border: 2px solid rgb(28, 165, 189);
+}
+
+nav {
+    background-color: rgb(5, 23, 82);
+    text-align: center;
+}
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+    overflow: hidden;
+}
+nav ul li a {
+	display: block;
+	color: #fff;
+	text-align: center;
+	padding: 0.75rem;
+	text-decoration: none;
+    font-size: 0.95rem;
+    border: 2px solid rgb(28, 165, 189);
+}
+nav a:hover {
+	background-color: #bbb;
+	color: #36454f;
 }
 
 h1{
@@ -30,7 +53,7 @@ h1{
 }*/
 
 #logo {
-    /*display: block;*/
+    display: block;
     border-radius: 12px;
     max-width: 90%;
     height: 60px;
@@ -55,7 +78,6 @@ footer {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    border-radius: 12px;
     border: 2px solid rgb(28, 165, 189);
 }
 
