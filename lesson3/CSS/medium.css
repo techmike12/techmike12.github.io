@@ -3,6 +3,10 @@
         font-size: 4em;
     }
 
+    #title {
+        margin-right: 10px;
+    }
+
     nav ul { display: flex; }
     nav ul li { flex: 1 1 100%; }
 
