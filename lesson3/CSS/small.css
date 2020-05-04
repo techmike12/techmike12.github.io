@@ -1,9 +1,10 @@
 #title {
     font-size: 2em;
     text-align: center;
+    align-items: center;
     color: white;
-    margin-top: 10px;
-    margin-right: 75%;
+    margin-top: -65px;
+    margin-left: 50px;
 }
 
 header {
@@ -29,7 +30,7 @@ h1{
 }*/
 
 #logo {
-    display: block;
+    /*display: block;*/
     border-radius: 12px;
     max-width: 90%;
     height: 60px;
