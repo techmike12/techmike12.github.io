@@ -125,5 +125,10 @@ footer {
 #modified {
     font-size: 0.7em;
     padding-top: 5px;
+    color: white;
+}
+
+#byui {
+    padding-top: 5px;
     color: #3DCBFF;
 }
