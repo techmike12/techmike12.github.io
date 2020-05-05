@@ -20,6 +20,10 @@ p {
     font-size: 1em;
 }
 
+img {
+    max-width: 25%;
+}
+
 nav {
     background-color: rgb(5, 23, 82);
     text-align: center;
@@ -75,6 +79,7 @@ h2 {
 td ul {
     padding: 0px;
     margin: 5px 0px 0px 0px;
+    list-style-type: none;
 }
 
 section {
