@@ -1,13 +1,13 @@
 #title {
     font-size: 2em;
-    text-align: center;
-    align-items: center;
     color: white;
-    margin-top: -65px;
-    margin-right: -20%;
+    margin-left: 10px;
 }
 
 header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
     margin-top: 5px;
     background-color: rgb(5, 23, 82);
     height: 90px;
@@ -77,14 +77,11 @@ td ul {
     margin: 5px 0px 0px 0px;
 }
 
-#table {
-    margin-left: 25px;
-}
-
 section {
     max-width: 900px;
     margin-left: auto;
     margin-right: auto;
+    padding: 10px;
 }
 
 #logo {
