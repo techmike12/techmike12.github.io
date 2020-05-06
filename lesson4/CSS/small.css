@@ -56,6 +56,7 @@ h3 {
 
 h2 {
     text-decoration: underline;
+    color: #B86602;
 }
 
 #subtitle {
@@ -92,7 +93,7 @@ section {
     border: 2px solid #59C1FF;
 }
 a {
-    color: #FFAC1C;
+    color: #196FFF;
     background-color: transparent;
     text-decoration: underline;
 }
