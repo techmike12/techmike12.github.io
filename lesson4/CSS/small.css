@@ -2,8 +2,7 @@ header {
     display: flex;
     flex-wrap: nowrap;
     justify-content: left;
-    margin-top: 5px;
-    background-color: #0765B3;
+    background-color: #006BB8;
     height: 90px;
 }
 
@@ -17,7 +16,7 @@ img {
 }
 
 nav {
-    background-color: #0765B3;
+    background-color: #006BB8;
     text-align: center;
 }
 nav ul {
@@ -42,7 +41,7 @@ nav a:hover {
 }
 
 .active {
-	color: #1597FF;
+	color: black;
 }
 
 h1{
@@ -91,7 +90,7 @@ section {
     height: 60px;
     margin-left: 10px;
     margin-top: 10px;
-    border: 2px solid rgb(28, 165, 189);
+    border: 2px solid #59C1FF;
 }
 a {
     color: #FFAC1C;
@@ -100,7 +99,7 @@ a {
 }
 
 footer {
-    background-color: #0765B3;
+    background-color: #006BB8;
     height: 50px;
     width: 100%;
     color: white;
