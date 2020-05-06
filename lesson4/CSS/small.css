@@ -28,7 +28,7 @@ nav ul {
 }
 nav ul li a {
 	display: block;
-    color: black;
+    color: white;
     font-weight: bold;
 	text-align: center;
 	padding: 0.75rem;
@@ -70,7 +70,7 @@ h2 {
 
 #title {
     font-size: 2em;
-    color: #305BFF;
+    color: black;
     margin-left: 10px;
     margin-top: 5px;
 }
@@ -102,7 +102,7 @@ footer {
     background-color: #305BFF;
     height: 50px;
     width: 100%;
-    color: black;
+    color: white;
     font-size: .8em;
     display: flex;
     align-items: center;
