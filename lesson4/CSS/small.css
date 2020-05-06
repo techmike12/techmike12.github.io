@@ -3,9 +3,9 @@ header {
     flex-wrap: nowrap;
     justify-content: left;
     margin-top: 5px;
-    background-color: black;
+    background-color: #3DCBFF;
     height: 90px;
-    border: 2px solid #3DCBFF;
+    border: 2px solid #305BFF;
     border-radius: 12px;
 }
 
@@ -19,7 +19,7 @@ img {
 }
 
 nav {
-    background-color: black;
+    background-color: #305BFF;
     text-align: center;
     border-radius: 12px;
     border: 2px solid #3DCBFF;
@@ -32,7 +32,8 @@ nav ul {
 }
 nav ul li a {
 	display: block;
-	color: #fff;
+    color: black;
+    font-weight: bold;
 	text-align: center;
 	padding: 0.75rem;
 	text-decoration: none;
@@ -59,11 +60,12 @@ h3 {
 
 h2 {
     text-decoration: underline;
+    color: #3DCBFF
 }
 
 #subtitle {
     font-size: 1em;
-    color: white;
+    color: black;
     margin-top: 30px;
     text-decoration: none;
     font-style: italic;
@@ -72,7 +74,7 @@ h2 {
 
 #title {
     font-size: 2em;
-    color: #3DCBFF;
+    color: #305BFF;
     margin-left: 10px;
     margin-top: 5px;
 }
@@ -101,10 +103,10 @@ a {
 }
 
 footer {
-    background-color: black;
+    background-color: #305BFF;
     height: 50px;
     width: 100%;
-    color: white;
+    color: black;
     font-size: .8em;
     display: flex;
     align-items: center;
