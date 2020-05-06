@@ -5,8 +5,6 @@ header {
     margin-top: 5px;
     background-color: #3DCBFF;
     height: 90px;
-    border: 2px solid #305BFF;
-    border-radius: 12px;
 }
 
 p {
@@ -21,8 +19,6 @@ img {
 nav {
     background-color: #305BFF;
     text-align: center;
-    border-radius: 12px;
-    border: 2px solid #3DCBFF;
 }
 nav ul {
 	list-style-type: none;
@@ -112,6 +108,4 @@ footer {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    border-radius: 12px;
-    border: 2px solid rgb(28, 165, 189);
 }
