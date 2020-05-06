@@ -3,7 +3,7 @@ header {
     flex-wrap: nowrap;
     justify-content: left;
     margin-top: 5px;
-    background-color: #0257B3;
+    background-color: #0765B3;
     height: 90px;
 }
 
@@ -17,7 +17,7 @@ img {
 }
 
 nav {
-    background-color: #0257B3;
+    background-color: #0765B3;
     text-align: center;
 }
 nav ul {
@@ -28,7 +28,7 @@ nav ul {
 }
 nav ul li a {
 	display: block;
-    color: #B37100;
+    color: #FFA314;
     font-weight: bold;
 	text-align: center;
 	padding: 0.75rem;
@@ -42,7 +42,7 @@ nav a:hover {
 }
 
 .active {
-	color: #FFAC1C;
+	color: #1597FF;
 }
 
 h1{
@@ -71,7 +71,7 @@ h2 {
 
 #title {
     font-size: 2em;
-    color: #FFAC1C;
+    color: #FFA314;
     margin-left: 10px;
     margin-top: 5px;
 }
@@ -100,7 +100,7 @@ a {
 }
 
 footer {
-    background-color: #0257B3;
+    background-color: #0765B3;
     height: 50px;
     width: 100%;
     color: white;
