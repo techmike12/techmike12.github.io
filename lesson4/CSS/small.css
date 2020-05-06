@@ -3,7 +3,7 @@ header {
     flex-wrap: nowrap;
     justify-content: left;
     margin-top: 5px;
-    background-color: #305BFF;
+    background-color: black;
     height: 90px;
     border: 2px solid #3DCBFF;
     border-radius: 12px;
@@ -19,7 +19,7 @@ img {
 }
 
 nav {
-    background-color: #305BFF;
+    background-color: black;
     text-align: center;
     border-radius: 12px;
     border: 2px solid #3DCBFF;
@@ -101,7 +101,7 @@ a {
 }
 
 footer {
-    background-color: #305BFF;
+    background-color: black;
     height: 50px;
     width: 100%;
     color: white;
