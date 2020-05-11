@@ -2,8 +2,9 @@ header {
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;
+    align-items: center;
     background-color: #002D52;
-    height: 90px;
+    height: 80px;
 }
 
 p {
@@ -88,16 +89,16 @@ h2 {
 #subtitle {
     font-size: 1em;
     color: white;
-    margin-top: 20px;
     text-decoration: none;
     font-style: italic;
+    text-align: center;
 }
 
 #title {
     font-size: 2em;
     color: #FFB200;
-    margin-left: 10px;
-    margin-top: 5px;
+    margin: 0em;
+    text-align: center;
 }
 
 section {
@@ -119,12 +120,10 @@ section {
 }
 
 #logo {
-    display: block;
     border-radius: 12px;
     max-width: 90%;
     height: 60px;
-    margin-left: 10px;
-    margin-top: 10px;
+    margin: 10px;
     border: 2px solid #59C1FF;
 }
 

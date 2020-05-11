@@ -1,19 +1,17 @@
 @media only screen and (min-width: 37.5em) {
+    header {
+        height: 125px;
+    }
+
     #title {
+        font-size: 2em;
         margin-right: 10px;
         margin-top: 15px;
     }
 
     #logo {
-        height: 70px;
-    }
-
-    #title {
-        font-size: 2em;
-    }
-
-    #subtitle {
-        font-size: 1.5em;
+        height: 80px;
+        margin-left: 40%;
     }
 
 	.navigation {
@@ -31,7 +29,7 @@
 	.navigation li:first-child {
 		display: none;
 	}
-    
+
     header {
         justify-content: flex-start;
     }
