@@ -57,14 +57,19 @@ nav ul li a:hover {
 }
 
 .responsive li {
-	display: block;
+    display: block;
 }
 
-.ham {
+.responsiveClose li {
+    display: none;
+}
+
+#ham {
     margin: .2rem 2%;
     background-color: transparent;
     border: none;
     font-size: 1.6rem;
+    color: white;
 }
 
 h1{
