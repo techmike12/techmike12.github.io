@@ -1,6 +1,11 @@
-@media only screen and (min-width: 37.5em) {
+@media only screen and (min-width: 32.5em) {
     header {
         height: 125px;
+    }
+
+    main {
+        width: 75%;
+        margin: auto;
     }
 
     #title {
@@ -36,5 +41,7 @@
 
     footer {
         font-size: 1em;
+        width: 90%;
+        margin: auto;
     }
 }
