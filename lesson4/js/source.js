@@ -2,7 +2,7 @@ document.getElementById("modified").innerHTML = todayDate();
 
 function todayDate() {
     var today = new Date();
-    var month = today.getMonth() + 1;
+    var month = today.getMonth();
     switch (month) {
         case 0:
             month = "January"
