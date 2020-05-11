@@ -4,7 +4,7 @@ function toggleMenu ()  {
         document.getElementById("ham").innerHTML= "&#x2715";
     } else {
         document.getElementsByClassName("navigation")[0].classList.toggle("responsive");
-        document.getElementById("ham").innerHTML= "&#9776";
+        document.getElementById("ham").innerHTML= "&#9776 Menu";
     }
 
 }

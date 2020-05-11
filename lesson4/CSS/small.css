@@ -3,7 +3,7 @@ header {
     flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
-    background-color: #002D52;
+    /*background-color: #002D52;*/
     height: 80px;
 }
 
@@ -88,7 +88,7 @@ h2 {
 
 #subtitle {
     font-size: 1em;
-    color: white;
+    color: black;
     text-decoration: none;
     font-style: italic;
     text-align: center;
@@ -121,10 +121,8 @@ section {
 
 #logo {
     border-radius: 12px;
-    max-width: 90%;
     height: 60px;
     margin: 10px;
-    border: 2px solid #59C1FF;
 }
 
 footer {
