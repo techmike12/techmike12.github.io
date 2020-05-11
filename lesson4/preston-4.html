@@ -15,12 +15,13 @@
 <header>
     <img id="logo" src="./Images/weather_logo.jpg" alt="Sun and cloud">
     <h1 id="title">Weather News</h1>
-    <h2 id="subtitle">"Your weather live and on demand"</h2>
+    <div id="subtitle">"Your weather live and on demand"</div>
 </header>
 <nav>
-	<ul>
+	<ul class="navigation">
+        <li><a class="ham" href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
 		<li><a href="#">Home</a></li>
-		<li><a href="preston-4.html" class="active">Preston</a></li>
+		<li><a class="active" href="preston-4.html">Preston</a></li>
 		<li><a href="#">Soda Springs</a></li>
         <li><a href="#">Fish Haven</a></li>
         <li><a href="#">Storm Center</a></li>
@@ -31,6 +32,9 @@
     <section>
         <h2>Preston Idaho</h2>
     </section>
+    <div class="content">Weather Summary/Hero image</div>
+    <div class="content">Article/Article image</div>
+    <div class="content">Contact info/map</div>
     <footer>
         <div>&copy; <span id="copyright"></span> | Weather News | Attributions | Michael Kendall</div>
         <span id="modified"></span>

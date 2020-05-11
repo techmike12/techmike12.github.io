@@ -4,13 +4,25 @@
         margin-top: 15px;
     }
 
+	.navigation {
+		display: flex;
+	}
 
+    .navigation li {
+		display: block;
+		flex: 1 1 auto;
+    }
+
+    .navigation a {
+		text-align: center;
+	}
+	.navigation li:first-child {
+		display: none;
+	}
+    
     header {
         justify-content: flex-start;
     }
-
-    nav ul { display: flex; }
-    nav ul li { flex: 1 1 100%; }
 
     footer {
         font-size: 1em;
