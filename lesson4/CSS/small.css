@@ -49,7 +49,7 @@ nav {
 
 nav ul li a.active {
     color: #002D52;
-    background-color: #196FFF;
+    background-color: #59C1FF;
 }
 
 nav ul li a:hover {
@@ -96,7 +96,7 @@ h2 {
 
 #title {
     font-size: 2em;
-    color: #FFB200;
+    color: #B86602;
     margin: 0em;
     text-align: center;
 }
