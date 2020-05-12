@@ -48,12 +48,12 @@ nav {
 }
 
 nav ul li a.active {
-    color: #FFB200;
+    color: #002D52;
+    background-color: #196FFF;
 }
 
 nav ul li a:hover {
-    color: #36454f;
-    border-radius: 12px;
+    color: #FFB200;
 }
 
 .responsive li {
