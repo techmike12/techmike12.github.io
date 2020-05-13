@@ -135,7 +135,7 @@ section {
     align-items: center;
     border: 1px solid black;
     padding: 10px;
-    background-color: gray;
+    background-color: rgb(180, 176, 176);
     margin-bottom: 10px;
     list-style: none;
 }
@@ -148,7 +148,7 @@ section {
     align-items: center;
     border: 1px solid black;
     padding: 10px;
-    background-color: gray;
+    background-color: rgb(180, 176, 176);
     margin-bottom: 10px;
     list-style: none;
 }
@@ -161,7 +161,7 @@ section {
     align-items: center;
     border: 1px solid black;
     padding: 10px;
-    background-color: gray;
+    background-color: rgb(180, 176, 176);
     margin-bottom: 10px;
     list-style: none;
 }
@@ -174,25 +174,18 @@ section {
     align-items: center;
     border: 1px solid black;
     padding: 10px;
-    background-color: gray;
+    background-color: rgb(180, 176, 176);
     margin-bottom: 10px;
-    list-style: none;
 }
 
-.address::before {
-
+#social {
+    display: flex;
+    justify-content: center;
 }
 
-.phone::before {
-
-}
-
-.email::before {
-
-}
-
-.social {
-
+#social img {
+    max-width: 10%;
+    margin-left: 15px;
 }
 
 footer {
