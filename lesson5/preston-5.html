@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Michael Kendall">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name= "description" content="Weather Site">
+    <link rel="stylesheet" href="CSS/normalize.css">
+    <link rel="stylesheet" href="CSS/small.css">
+    <link rel="stylesheet" href="CSS/medium.css">
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <link rel="icon" href="./Images/favicon.ico">
+    <title>Weather News | Town of Preston</title>
+</head>
+<header>
+    <img id="logo" src="./Images/weather_logo.jpg" alt="Sun and cloud">
+    <div id="titles">
+    <h1 id="title">Weather News</h1>
+    <p id="subtitle">"Your weather live and on demand"</p>
+    </div>
+</header>
+<nav>
+	<ul class="navigation">
+        <li><a id="ham" href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+		<li><a href="#">Home</a></li>
+		<li><a class="active" href="preston-4.html">Preston</a></li>
+		<li><a href="#">Soda Springs</a></li>
+        <li><a href="#">Fish Haven</a></li>
+        <li><a href="#">Storm Center</a></li>
+        <li><a href="#">Gallery</a></li>
+	</ul>
+</nav>
+<main>
+    <section>
+        <h2>Preston</h2>
+    </section>
+    <div class="content">Hero image/weather summary</div>
+    <div class="content">5 day forecast</div>
+    <div class="content">Article</div>
+    <div class="content">Contact information</div>
+</main>
+<footer>
+    <div>&copy; <span id="copyright"></span> Weather News | Attributions | Michael Kendall</div>
+    <span id="modified"></span>
+</footer>
+<script src="./js/source.js"></script>
+</html>
