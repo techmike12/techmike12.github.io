@@ -21,6 +21,7 @@ header {
 p {
     margin: 0 0 10px 0;
     font-size: 1em;
+    color: #002D52;
 }
 
 nav {
@@ -120,20 +121,79 @@ section {
     padding: 10px;
 }
 
-.content {
-    display: block;
-    margin: 10px auto;
-    border: 1px solid black;
-    padding: 15px;
-    background-color: gray;
-    color: black;
-    font-style: italic;
-}
-
 #logo {
     border-radius: 12px;
     height: 60px;
     margin: 10px;
+}
+
+.summary {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    padding: 10px;
+    background-color: gray;
+    margin-bottom: 10px;
+    list-style: none;
+}
+
+.fiveDay {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    padding: 10px;
+    background-color: gray;
+    margin-bottom: 10px;
+    list-style: none;
+}
+
+.article {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    padding: 10px;
+    background-color: gray;
+    margin-bottom: 10px;
+    list-style: none;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    padding: 10px;
+    background-color: gray;
+    margin-bottom: 10px;
+    list-style: none;
+}
+
+.address::before {
+	font-family: ETmodules!important;
+    content: url("./Images/map.ico");
+}
+
+.phone::before {
+
+}
+
+.email::before {
+
+}
+
+.social {
+
 }
 
 footer {
