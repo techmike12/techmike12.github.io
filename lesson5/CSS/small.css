@@ -1,9 +1,20 @@
+#banner {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #59C1FF;
+    margin: auto;
+    height: 50px;
+    color: #002D52;
+    font-weight: bold;
+}
+
 header {
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
-    /*background-color: #002D52;*/
     height: 80px;
 }
 
