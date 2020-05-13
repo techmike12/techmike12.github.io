@@ -39,6 +39,18 @@
         justify-content: flex-start;
     }
 
+    #map {
+        display: block;
+        max-width: 25%;
+        border: 2px solid black;
+        border-radius: 12px;
+    }
+
+    .contact {
+        justify-content: left;
+        text-align: left;
+    }
+
     footer {
         font-size: 1em;
         width: 80%;

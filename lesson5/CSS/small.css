@@ -90,8 +90,10 @@ h1{
 }
 
 h3 {
-    margin: 0;
-    color: #1C8AFF;
+    font-size: 1.5em;
+    margin: 5px;
+    color: #002D52;
+    text-decoration: underline;
 }
 
 h2 {
@@ -170,22 +172,42 @@ section {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    justify-content: center;
     align-items: center;
+    padding: 10px;
+    background-color: rgb(180, 176, 176);
+    margin-bottom: 10px;
+}
+
+#map {
+    display: none;
+}
+
+#mapIcon, #phone, #email {
+    max-height: 20px;
+}
+
+.contactUs {
+    display: flex;
+    justify-content: center;
     border: 1px solid black;
     padding: 10px;
     background-color: rgb(180, 176, 176);
     margin-bottom: 10px;
 }
 
-#social {
+#city {
+    margin-left: 25px;
+}
+
+.contact {
     display: flex;
     justify-content: center;
 }
 
 #social img {
-    max-width: 10%;
-    margin-left: 15px;
+    max-width: 25px;
+    max-height: 25px;
+    padding: 5px;
 }
 
 footer {
