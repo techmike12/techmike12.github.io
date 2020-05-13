@@ -180,8 +180,7 @@ section {
 }
 
 .address::before {
-	font-family: ETmodules!important;
-    content: url("./Images/map.ico");
+
 }
 
 .phone::before {
