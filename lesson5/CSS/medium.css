@@ -41,13 +41,19 @@
 
     #map {
         display: block;
-        max-width: 25%;
+        max-width: 50%;
         border: 2px solid black;
         border-radius: 12px;
+        margin-left: 30%;
+    }
+
+    #mapLink {
+        margin: auto;
     }
 
     .contact {
         align-items: flex-start;
+        margin-right: 20%;
     }
 
     footer {
