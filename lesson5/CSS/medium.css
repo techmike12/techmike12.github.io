@@ -41,14 +41,16 @@
 
     #map {
         display: block;
-        max-width: 50%;
+        max-width: 40%;
         border: 2px solid black;
         border-radius: 12px;
         margin-left: 30%;
     }
 
     #mapLink {
-        margin: auto;
+        margin-right: -200px;
+        margin-top: auto;
+        margin-bottom: auto;
     }
 
     .contact {
