@@ -129,16 +129,22 @@ section {
     margin: 10px;
 }
 
-.summary {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid black;
-    padding: 10px;
+#hero img {
+    max-width: 100%;
+    margin: auto;
+    position: relative;
+}
+
+#summary {
     background-color: rgb(180, 176, 176);
-    margin-bottom: 10px;
+    border: 1px solid black;
+    position: absolute;
+    top: 35%;
+    left: 15%;
+    width: 300px;
+}
+
+#summary ul {
     list-style: none;
 }
 
@@ -147,12 +153,15 @@ section {
     flex-direction: column;
     flex-wrap: nowrap;
     justify-content: center;
-    align-items: center;
+    text-align: left;
     border: 1px solid black;
     padding: 10px;
     background-color: rgb(180, 176, 176);
     margin-bottom: 10px;
-    list-style: none;
+}
+
+.fiveDay h3 {
+    text-align: center;
 }
 
 .article {

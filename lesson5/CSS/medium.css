@@ -39,6 +39,10 @@
         justify-content: flex-start;
     }
 
+    .fiveDay {
+        align-items: left;
+    }
+
     #map {
         display: block;
         max-width: 300px;
