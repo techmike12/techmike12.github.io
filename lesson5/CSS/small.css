@@ -165,16 +165,24 @@ section {
 }
 
 .article {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: center;
+    display: grid;
+    grid-template-columns: 3fr 2fr;
     border: 1px solid black;
-    padding: 10px;
     background-color: rgb(180, 176, 176);
     margin-bottom: 10px;
     list-style: none;
+}
+
+#content {
+    grid-column: 1;
+    padding: 10px;
+}
+
+#articleImg {
+    grid-column: 2;
+    padding: 5px;
+    width: 95%;
+    margin-top: -15px;
 }
 
 .contact {
