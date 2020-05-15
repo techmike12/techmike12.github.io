@@ -42,6 +42,23 @@
     .fiveDay {
         align-items: left;
     }
+    
+    .article {
+        grid-template-columns: 3fr 2fr;
+    }
+
+    #content {
+        grid-column: 1;
+        text-align: left;
+    }
+    
+    #articleImg {
+        grid-column: 2;
+    }
+    
+    #articleImg {
+        text-align: left;
+    }
 
     #map {
         display: block;

@@ -164,9 +164,13 @@ section {
     text-align: center;
 }
 
+.article h3 {
+    text-align: center;
+}
+
 .article {
     display: grid;
-    grid-template-columns: 3fr 2fr;
+    grid-template-columns: 1fr;
     border: 1px solid black;
     background-color: rgb(180, 176, 176);
     margin-bottom: 10px;
@@ -176,13 +180,17 @@ section {
 #content {
     grid-column: 1;
     padding: 10px;
+    text-align: center;
 }
 
 #articleImg {
-    grid-column: 2;
-    padding: 5px;
+    grid-column: 1;
     width: 95%;
     margin-top: -15px;
+    border-radius: 12px;
+    border: 2px solid black;
+    border-radius: 12px;
+    margin-left: 10px;
 }
 
 .contact {
