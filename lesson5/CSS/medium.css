@@ -37,13 +37,12 @@
 
     #hero img {
         max-width: 75%;
-        position: absolute;
+        position: relative;
     }
     
     #summary {
-        top: 20px;
-        left: 20px;
-        width: 300px;
+        width: 30%;
+        font-size: 1em;
     }
 
     header {
@@ -52,9 +51,8 @@
 
     .fiveDay {
         align-items: left;
-        margin-top: 520px;
     }
-    
+
     .article {
         grid-template-columns: 3fr 2fr;
     }
