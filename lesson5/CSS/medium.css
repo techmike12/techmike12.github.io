@@ -70,21 +70,26 @@
         text-align: left;
     }
 
-    #map {
-        display: block;
-        max-width: 300px;
-        border: 2px solid black;
-        border-radius: 12px;
+    #mapLink {
         margin: auto;
     }
 
-    #mapLink {
-        margin: auto;
+    .contactUs {
+        grid-template-columns: 1fr 1fr;
     }
 
     .contact {
         margin: auto;
         text-align: left;
+        grid-column-start: 2;
+        grid-column-end: auto;
+        grid-row: auto;
+    }
+
+    #map {
+        grid-column-start: 1;
+        grid-column-end: auto;
+        grid-row: auto;
     }
 
     footer {

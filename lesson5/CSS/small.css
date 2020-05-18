@@ -200,17 +200,23 @@ section {
 }
 
 .contact {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    align-items: center;
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row: 1;
     padding: 10px;
     background-color: rgb(180, 176, 176);
     margin-bottom: 10px;
 }
 
 #map {
-    display: none;
+    max-width: 70%;
+    border: 2px solid black;
+    border-radius: 12px;
+    margin: auto 15%;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row: 2;
 }
 
 #mapIcon, #phone, #email {
@@ -218,9 +224,8 @@ section {
 }
 
 .contactUs {
-    display: flex;
-    justify-content: center;
-    flex-wrap: nowrap;
+    display: grid;
+    grid-template-columns: 1fr;
     border: 1px solid black;
     padding: 10px;
     background-color: rgb(180, 176, 176);
@@ -228,11 +233,13 @@ section {
 }
 
 .contact {
-    display: block;
     text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row: 1;
 }
 
-#social img {
+.social {
     max-width: 25px;
     max-height: 25px;
     padding: 5px;
