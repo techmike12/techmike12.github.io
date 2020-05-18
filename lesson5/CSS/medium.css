@@ -34,10 +34,15 @@
 	.navigation li:first-child {
 		display: none;
     }
+
+    #hero img {
+        max-width: 75%;
+        position: absolute;
+    }
     
     #summary {
-        top: 35%;
-        left: 15%;
+        top: 20px;
+        left: 20px;
         width: 300px;
     }
 
@@ -47,6 +52,7 @@
 
     .fiveDay {
         align-items: left;
+        margin-top: 520px;
     }
     
     .article {
