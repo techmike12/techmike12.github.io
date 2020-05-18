@@ -33,7 +33,13 @@
 	}
 	.navigation li:first-child {
 		display: none;
-	}
+    }
+    
+    #summary {
+        top: 35%;
+        left: 15%;
+        width: 300px;
+    }
 
     header {
         justify-content: flex-start;
