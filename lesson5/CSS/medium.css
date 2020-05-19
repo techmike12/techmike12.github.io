@@ -57,14 +57,14 @@
         background-color: rgb(180, 176, 176);
         margin-bottom: 10px;
     }
-    
+
     .fiveDay h3 {
         text-align: center;
     }
 
     #forecast {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     }
 
     .article {
