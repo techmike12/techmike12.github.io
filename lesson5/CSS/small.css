@@ -141,12 +141,13 @@ section {
 
 #summary {
     background-color: rgb(180, 176, 176);
-    border: 1px solid black;
+    border-radius: 12px;
+    border: 2px solid black;
     text-align: left;
     position: absolute;
-    top: 30px;
+    top: 25px;
     left: 30px;
-    padding: 10px;
+    padding: 5px;
 }
 
 #summary ul {
@@ -154,15 +155,7 @@ section {
 }
 
 .fiveDay {
-    text-align: left;
-    border: 1px solid black;
-    padding: 10px;
-    background-color: rgb(180, 176, 176);
-    margin-bottom: 10px;
-}
-
-.fiveDay h3 {
-    text-align: center;
+    display: none;
 }
 
 #forecast {

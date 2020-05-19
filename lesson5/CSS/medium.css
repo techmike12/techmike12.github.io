@@ -50,7 +50,16 @@
     }
 
     .fiveDay {
-        align-items: left;
+        display: block;
+        text-align: left;
+        border: 1px solid black;
+        padding: 10px;
+        background-color: rgb(180, 176, 176);
+        margin-bottom: 10px;
+    }
+    
+    .fiveDay h3 {
+        text-align: center;
     }
 
     #forecast {
