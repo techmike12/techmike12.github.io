@@ -1,0 +1,112 @@
+@media only screen and (min-width: 32.5em) {
+    header {
+        height: 125px;
+    }
+
+    main {
+        width: 75%;
+        margin: auto;
+    }
+
+    #title {
+        font-size: 2em;
+        margin-right: 10px;
+        margin-top: 15px;
+    }
+
+    #logo {
+        height: 100px;
+        margin-left: 40%;
+    }
+
+	.navigation {
+		display: flex;
+	}
+
+    .navigation li {
+		display: block;
+		flex: 1 1 auto;
+    }
+
+    .navigation a {
+		text-align: center;
+	}
+	.navigation li:first-child {
+		display: none;
+    }
+
+    #hero img {
+        max-width: 75%;
+        position: relative;
+    }
+
+    #summary {
+        width: 30%;
+        font-size: 1em;
+    }
+
+    header {
+        justify-content: flex-start;
+    }
+
+    .fiveDay {
+        display: block;
+        text-align: left;
+        border: 1px solid black;
+        padding: 10px;
+        background-color: rgb(180, 176, 176);
+        margin-bottom: 10px;
+    }
+
+    .fiveDay h3 {
+        text-align: center;
+    }
+
+    #forecast {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+
+    .article {
+        display: block;
+    }
+
+    #articleImg {
+        width: 50%;
+        margin: 2% 2% 0 2%;
+        float: right;
+    }
+
+    #content {
+        grid-column: 1;
+        text-align: left;
+    }
+
+    #mapLink {
+        margin: auto;
+    }
+
+    .contactUs {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .contact {
+        margin: auto;
+        text-align: left;
+        grid-column-start: 2;
+        grid-column-end: auto;
+        grid-row: auto;
+    }
+
+    #map {
+        grid-column-start: 1;
+        grid-column-end: auto;
+        grid-row: auto;
+    }
+
+    footer {
+        font-size: 1em;
+        width: 80%;
+        margin: auto;
+    }
+}

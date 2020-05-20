@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Michael Kendall">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name= "description" content="Weather Site">
+    <link rel="stylesheet" href="CSS/normalize.css">
+    <link rel="stylesheet" href="CSS/small.css">
+    <link rel="stylesheet" href="CSS/medium.css">
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <link rel="icon" href="./Images/favicon.ico">
+    <title>Weather News | Town of Preston</title>
+</head>
+<div id="banner"></div>
+<header>
+    <img id="logo" src="./Images/weather_logo.jpg" alt="Sun and cloud">
+    <div id="titles">
+    <h1 id="title">Weather News</h1>
+    <p id="subtitle">"Your weather live and on demand"</p>
+    </div>
+</header>
+<nav>
+	<ul class="navigation">
+        <li><a id="ham" href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+		<li><a href="#">Home</a></li>
+		<li><a class="active" href="preston-6.html">Preston</a></li>
+		<li><a href="#">Soda Springs</a></li>
+        <li><a href="#">Fish Haven</a></li>
+        <li><a href="#">Storm Center</a></li>
+        <li><a href="#">Gallery</a></li>
+	</ul>
+</nav>
+<main>
+    <h2>Preston Idaho</h2>
+    <div class="hero">
+        <div id="heropic">
+        <img src="./Images/hero.jpeg" alt="Preston Landscape">
+        </div>
+            <section id="summary">
+                <h3>Weather Summary</h3>
+                <ul>
+                    <li>Current:</li>
+                    <li>High:</li>
+                    <li>Wind Chill:</li>
+                    <li>Humidity:</li>
+                    <li>Wind Speed:</li>
+                </ul>
+            </section>
+    </div>
+    <div class="fiveDay">
+        <h3>5 Day Forecast</h3>
+        <section id="forecast">
+            <p class="day">Monday</p>
+            <p class="day">Tuesday</p>
+            <p class="day">Wednesday</p>
+            <p class="day">Thursday</p>
+            <p class="day">Friday</p>
+        </section>
+    </div>
+    <div class="article">
+        <h3>White House highlights Idaho as leader</h3>
+        <p id="author">By NECIA P. SEAMONS Citizen editor</p>
+        <figure id="articleImg">
+            <img src="./Images/white-house.jpg" alt="Farm">
+            <figcaption>The White House</figcaption>
+            </figure>
+        <p id="content">The White House is highlighting Idaho as a leader among states
+            for plans to safely and responsibly reopen the economy and for how the state has allocated federal relief funds.
+            <br>
+            <br>
+            Preston native, Brandon Woolf has also been noted for his role in the process.
+            <br>
+            <br>
+            “We are encouraged to see so many states embracing the phased approach to reopening their economies that’s
+            contemplated in our guidelines for Opening Up America Again. Governor Brad Little of Idaho released ‘Rebound Idaho’
+            …that will consist of four phases and require specific criteria that Idaho and businesses need to meet to begin to
+            reopen,” Vice President Mike Pence said recently.
+            <br>
+            <br>
+            Governor Little approved his Coronavirus Financial Advisory Committee’s recommendations for the allocation of
+            funds from the Coronavirus Aid, Relief, and Economic Security (CARES) Act. The full breakdown is available
+            at https://coronavirus.idaho.gov/coronavirus-financial-advisory-committee/.
+            <br>
+            <br>
+            Two-thirds of the federal funds that have been allocated so far in Idaho – more than $300 million – will
+            go directly to small businesses in the form of cash grants and cash for personal protective equipment to
+            support workers and customers. No other state is putting up more money to directly support small business.
+            <br>
+            <br>
+            The majority of the remaining amount has been allocated to local governments and tribal governments throughout Idaho.
+            <br>
+            <br>
+            Idaho received $1.25 billion in April as part of the CARES Act. Approximately 36-percent of the funds have been
+            allocated so far, and the rest remains in a state account to cover any extraordinary and unanticipated expenses
+            that may arise.
+            <br>
+            <br>
+            All expenditures of the CARES Act funds will be made available at Transparent.Idaho.Gov, State Controller
+            Brandon Woolf’s web site that shows Idaho citizens how taxpayer dollars are being spent.
+            <br>
+            <br>
+            “Our priority is to directly support small businesses as much as possible as we prudently and judiciously
+            expend these taxpayer dollars. I want to thank President Trump, our congressional delegation, and our
+            champion of transparency State Controller Brandon Woolf, for their support,” Governor Little said. Woolf
+            is a 1991 graduate of Preston High School.
+            <br>
+            <br>
+            Small businesses can begin applying for the Idaho Rebound cash grants today. Information on how to
+            apply is at https://rebound.idaho.gov/idaho-rebound-cash-grants-for-small-businesses/.
+        </p>
+    </div>
+    <div class="contactUs">
+        <a id="mapLink" rel="noopener" href="https://tinyurl.com/y7nhumq3" target="_blank"><img id="map" src="./Images/map.JPG" alt="Preston Idaho Map"></a>
+        <div class="contact">
+        <h3>Weather News</h3>
+        <p><img id="mapIcon" src="./Images/map.png" alt="Map indicator">51 W Oneida St Preston, ID 83263</p>
+        <p><img id="phone" src="./Images/phone.png" alt="Phone">888-888-8888</p>
+        <p><img id="email" src="./Images/email.png" alt="Email">weathernews@wn.org</p>
+        <img class="social" src="Images/iconfinder_Colored_Facebook3_svg_5365678.png" alt="Facebook Logo">
+        <img class="social" src="Images/iconfinder_1_Twitter3_colored_svg_5296516.png" alt="Twitter Logo">
+        <img class="social" src="Images/iconfinder_1_Instagram_colored_svg_1_5296765.png" alt="Instagram Logo">
+        <img class="social" src="Images/iconfinder_1_Linkedin_unofficial_colored_svg_5296501.png" alt="LinkedIn Logo">
+        </div>
+    </div>
+</main>
+<footer>
+    <div>&copy; <span id="copyright"></span> Weather News | Attributions | Michael Kendall</div>
+    <span id="modified"></span>
+</footer>
+<script src="./js/source.js"></script>
+</html>
