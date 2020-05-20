@@ -140,6 +140,7 @@ section {
 }
 
 #summary {
+    display: grid;
     background-color: rgb(180, 176, 176);
     border-radius: 12px;
     border: 2px solid black;
@@ -147,7 +148,11 @@ section {
     position: absolute;
     top: 25px;
     left: 30px;
-    padding: 5px;
+    padding: 10px;
+}
+
+#summary span {
+    margin-left: 10px;
 }
 
 #summary ul {
