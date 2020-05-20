@@ -62,7 +62,13 @@
         <h3>White House highlights Idaho as leader</h3>
         <p id="author">By NECIA P. SEAMONS Citizen editor</p>
         <figure id="articleImg">
-            <img src="./Images/white-house.jpg" alt="Farm">
+            <picture>
+                <picture id="heropic">
+                    <source media="(max-width: 32.5em)" srcset="./Images/white-house-small.jpg">
+                    <source media="(max-width: 56em)" srcset="./Images/white-house-medium.jpg">
+                        <img src="./Images/white-house-large.jpg" alt="The White House">
+                </picture>
+            </picture>
             <figcaption>The White House</figcaption>
             </figure>
         <p id="content">The White House is highlighting Idaho as a leader among states
