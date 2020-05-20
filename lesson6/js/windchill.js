@@ -57,8 +57,8 @@ function windChill() {
     windchill = Math.round(windchill);
     /*Return message*/
     if (hightemp <= 50 && windspeed > 3) {
-        return "<b>Wind Chill: </b>" + windchill + " &#176F"
+        return "<b>Wind Chill: </b>" + windchill + " &#176F";
     } else {
-        return "<b>Wind Chill: </b>" + "N/A" + " &#176F"
+        return "<b>Wind Chill: </b>" + "N/A";
     }
 }
