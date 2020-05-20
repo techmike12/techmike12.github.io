@@ -68,19 +68,17 @@
     }
 
     .article {
-        grid-template-columns: 3fr 2fr;
+        display: block;
+    }
+
+    #articleImg {
+        width: 50%;
+        margin: 2% 2% 0 2%;
+        float: right;
     }
 
     #content {
         grid-column: 1;
-        text-align: left;
-    }
-
-    #articleImg {
-        grid-column: 2;
-    }
-
-    #articleImg {
         text-align: left;
     }
 
