@@ -50,11 +50,36 @@
     }
 
     .fiveDay {
-        display: block;
-        border: 1px solid black;
-        padding: 10px;
-        background-color: rgb(180, 176, 176);
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
         margin-bottom: 10px;
+    }
+
+    #day1, #day2, #day3, #day4, #day5 {
+        border: 1px solid black;
+        padding: 5px;
+        background-color: rgb(180, 176, 176);
+        margin: 5px;
+    }
+
+    #day1 {
+        grid-column: 1;
+    }
+
+    #day2 {
+        grid-column: 2;
+    }
+
+    #day3 {
+        grid-column: 3;
+    }
+
+    #day4 {
+        grid-column: 4;
+    }
+
+    #day5 {
+        grid-column: 5;
     }
 
     .fiveDay h3 {
