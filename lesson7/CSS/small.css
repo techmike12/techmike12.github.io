@@ -116,17 +116,29 @@ h2 {
     text-align: center;
 }
 
-section {
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 10px;
-}
-
 #logo {
     border-radius: 12px;
     height: 60px;
     margin: 10px;
+}
+
+section {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 5px;
+}
+
+.weather-images {
+    width: 100%;
+    height: 400px;
+}
+
+figure {
+    border: 2px solid #002D52;
+}
+
+figcaption {
+    padding: 5px;
 }
 
 footer {
