@@ -87,6 +87,10 @@
         grid-column: 5;
     }
 
+    .weather_icon {
+        width: 100%;
+    }
+
     .fiveDay h3 {
         text-align: center;
     }
