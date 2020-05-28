@@ -55,6 +55,10 @@
         margin-bottom: 10px;
     }
 
+    #forecast-title {
+        display: block;
+    }
+
     #day1, #day2, #day3, #day4, #day5 {
         border: 1px solid black;
         padding: 5px;

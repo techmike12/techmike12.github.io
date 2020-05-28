@@ -162,6 +162,10 @@ section {
     display: none;
 }
 
+#forecast-title {
+    display: none;
+}
+
 #forecast {
     display: grid;
     text-align: left;
