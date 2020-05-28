@@ -3,10 +3,6 @@ body {
     grid-gap: 5px;
 }
 
-img[data-src] {
-    filter: blur(0.5em);
-  }
-
 img {
     filter: blur(0em);
     transition: filter .5s;

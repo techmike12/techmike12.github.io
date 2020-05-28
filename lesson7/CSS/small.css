@@ -141,6 +141,11 @@ figcaption {
     padding: 5px;
 }
 
+img {
+    filter: blur(0em);
+    transition: filter .5s;
+  }
+
 footer {
     background-color: #002D52;
     height: 50px;
