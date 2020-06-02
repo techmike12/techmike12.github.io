@@ -26,10 +26,10 @@ function toggleMenu ()  {
 /*Load images as user scrolls*/
 const images = document.querySelectorAll("img[data-src]");
 
-const imgOptions = {
-    threshold: 0,
-    rootMargin: "0px 0px 100px 0px"
-};
+/*const imgOptions = {
+    threshold: 1,
+    rootMargin: "0px 0px 50px 0px"
+};*/
 
 const loadImages = (img) => {
     img.setAttribute('src', img.getAttribute('data-src'));
