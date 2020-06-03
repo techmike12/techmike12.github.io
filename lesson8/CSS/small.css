@@ -22,6 +22,7 @@ p {
     margin: 0 0 10px 0;
     font-size: 1em;
     color: #002D52;
+    text-align: center;
 }
 
 nav {
@@ -122,10 +123,62 @@ h2 {
     margin: 10px;
 }
 
-section {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-gap: 5px;
+form fieldset {
+    margin: 2em 0;
+    border: 1px solid #002D52;
+    border-radius: 12px;
+    padding: 1em 2%;
+}
+
+form legend {
+    color: #B86602;
+    margin: 0 1em;
+    padding: 0 .8em;
+}
+
+form label.top, form div {
+    display: block;
+    padding-top: 1.5em;
+    color: #002D52;
+    font-size: .8em;
+    font-weight: bold;
+}
+
+form label.top input, form label.top select {
+    display: block;
+    font-size: 1rem;
+    border: solid 1px #999;
+    border-radius: 5px;
+    padding: .75rem;
+    color: #555;
+    width: 100%;
+    max-width: 20rem;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+form label.sbs {
+    display: block;
+    padding: .75rem;
+    color: #555;
+}
+
+form input.submitBtn {
+    border: none;
+    background-color: #B86602;
+    color: white;
+    border-radius: 12px;
+    padding: .75rem 1.5rem;
+    margin: 0 0 2rem 2%;
+    width: 96%;
+    max-width: 20em;
+}
+
+form label.top input:required {
+    border-left: red solid 6px;
+}
+
+form label.top input:required:valid {
+    border-left: green solid 6px;
 }
 
 

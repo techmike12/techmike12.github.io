@@ -32,7 +32,50 @@
 </nav>
 <main>
     <h2>Storm Center</h2>
+    <form method="get" action="thanks.html">
+        <fieldset>
+            <legend>Contact Information</legend>
+            <label class="top">Full Name* <input type="text" name="name" title="Only Letters, 6 or more characters" pattern="[A-Za-z]{6,}" required></label>
+            <label class="top">Email <input type="email" name="email" placeholder="someone@gmail.com"></label>
+            <label class="top">Phone* <input type="tel" name="phone" placeholder="1235551234" required></label>
+            <label class="top">Zipcode <input type="number " name="ship-zip"></label>
+        </fieldset>
 
+        <fieldset>
+            <legend>Storm Information</legend>
+            <label class="storm">Storm Date <input type="date" name="date" ></label>
+            <label class="storm">Storm Type <input list="stormType" type="list" name="stormType" ></label>
+            <datalist id="stormType">
+                <option value="Flash Flood">
+                <option value="Hail">
+                <option value="Hurricane">
+                <option value="Thunderstorm">
+                <option value="Tornado">
+            </datalist>
+            <label class="storm" for="rating">Storm Severity: &nbsp;&nbsp;&nbsp;
+                <input type="range" id="rating" value="5" min="1" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+                        <span id="ratingvalue">5</span>
+            </label>
+            <label class="storm">Storm Region
+                <select name="region">
+                    <option value="" selected disabled>Select Region...</option>
+                    <option value="preston">Preston</option>
+                    <option value="soda springs">Soda Springs</option>
+                    <option value="fish haven">Information Technology</option>
+                </select>
+            </label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Additional Info</legend>
+            <div>In-danger level</div>
+            <label class="top"><input type="radio" name="level" value="yes"> Yes</label>
+            <label class="top"><input type="radio" name="level" value="maybe"> Maybe</label>
+            <label class="top"><input type="radio" name="level" value="no"> No</label>
+            <label class="top">Comments <input type="textarea"></label>
+        </fieldset>
+        <input type="submit" value='Update Storm' class="submitBtn">
+    </form>
 </main>
 <footer>
     <div>&copy; <span id="copyright"></span> Weather News | Attributions | Michael Kendall</div>
