@@ -125,15 +125,16 @@ h2 {
 
 form fieldset {
     margin: 2em 0;
-    border: 1px solid #002D52;
+    border: 2px solid #002D52;
     border-radius: 12px;
-    padding: 1em 2%;
+    padding: 2em 2%;
 }
 
 form legend {
     color: #B86602;
     margin: 0 1em;
     padding: 0 .8em;
+    font-size: 1.2em;
 }
 
 form label.top, form div {
