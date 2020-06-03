@@ -1,0 +1,48 @@
+body {
+    font-family: Ubuntu, sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid  #e7f0ed;
+}
+
+td, th {
+    border: 1px solid #e7f0ed;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+th {
+    background-color: #7fb9c2;
+    padding: 10px 20px 10px 20px;
+    font-size: 2em;
+    color: black;
+}
+
+tbody th {
+    background-color: #628ca6;
+    color: white;
+    font-size: 1em;
+}
+
+thead {
+    column-span: all;
+}
+
+tr:nth-child(odd) {
+    background-color: #e7ffed;
+}
+
+tfoot td {
+    padding: 10px 20px 10px 20px;
+    background-color: #7fb9c2;
+    font-size: 1em;
+    text-align: center;
+    column-span: 2;
+}
+
+#above {
+    background-color: #628ca6;
+    color: white;
+}
