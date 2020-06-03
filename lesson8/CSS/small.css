@@ -157,7 +157,7 @@ form label.top input, form label.top select {
     background-color: rgba(0, 0, 0, 0.1);
 }
 
-form label.sbs {
+form label.storm {
     display: block;
     padding: .75rem;
     color: #555;
