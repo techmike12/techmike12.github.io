@@ -34,6 +34,10 @@ tr:nth-child(odd) {
     background-color: #e7ffed;
 }
 
+tr:nth-child(6) td:nth-child(1) {
+    font-style: italic;
+}
+
 tfoot td {
     padding: 10px 20px 10px 20px;
     background-color: #7fb9c2;
