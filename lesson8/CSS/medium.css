@@ -44,6 +44,10 @@
         margin: 0 0 2rem 25%;
     }
 
+    form label.top input, form label.top select {
+        max-width: 15rem;
+    }
+
     footer {
         font-size: 1em;
         width: 80%;
