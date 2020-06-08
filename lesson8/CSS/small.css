@@ -157,6 +157,10 @@ form span.options {
     margin-left: 5px;
 }
 
+#comments {
+    height: 80px;
+}
+
 form label.top input, form label.top select {
     display: block;
     font-size: 1rem;
