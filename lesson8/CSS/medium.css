@@ -40,6 +40,10 @@
         grid-template-columns: repeat(2, 1fr);
     }
 
+    form input.submitBtn {
+        margin: 0 0 2rem 25%;
+    }
+
     footer {
         font-size: 1em;
         width: 80%;
