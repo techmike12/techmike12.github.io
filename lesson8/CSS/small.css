@@ -153,6 +153,10 @@ form label.radio {
     position: relative;
 }
 
+form span.options {
+    margin-left: 5px;
+}
+
 form label.top input, form label.top select {
     display: block;
     font-size: 1rem;
