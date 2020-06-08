@@ -119,12 +119,13 @@ h2 {
 
 #logo {
     border-radius: 12px;
+    padding: 0 1em 1em 1em;
     height: 60px;
     margin: 10px;
 }
 
 form fieldset {
-    margin: 2em 0;
+    margin: 0 2em 2em 2em;
     border: 2px solid #002D52;
     border-radius: 12px;
     padding: 2em 2%;
@@ -169,7 +170,7 @@ form label.top input, form label.top select {
     padding: .75rem;
     color: #555;
     width: 100%;
-    max-width: 20rem;
+    max-width: 15rem;
     background-color: rgba(0, 0, 0, 0.1);
 }
 

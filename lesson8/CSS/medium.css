@@ -40,6 +40,10 @@
         grid-template-columns: repeat(2, 1fr);
     }
 
+    form label.top input, form label.top select {
+        max-width: 20rem;
+    }
+
     footer {
         font-size: 1em;
         width: 80%;
