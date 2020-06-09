@@ -4,7 +4,8 @@ body {
 
 table {
     border-collapse: collapse;
-    border: 2px solid  #e7f0ed;
+    border: 2px solid  #e7ffed;
+    box-shadow: 15px 15px 15px #628ca6;
 }
 
 td, th {
