@@ -46,6 +46,7 @@ fetch(requestURL)
             let year = document.createElement('p');
             let pop = document.createElement('p');
             let rain = document.createElement('p');
+
             //Create Content
             image.setAttribute('src', 'Images/' + towns[i].photo);
             image.setAttribute('alt', towns[i].name);
@@ -54,10 +55,9 @@ fetch(requestURL)
             year.textContent = 'Year Founded: ' + towns[i].yearFounded;
             pop.textContent = 'Population: ' + towns[i].currentPopulation;
             rain.textContent = 'Annual Rain Fall: ' + towns[i].averageRainfall;
+
             //Add elements into section
             card.appendChild(image);
-            card.appendChild(name);
-            card.appendChild(name);
             card.appendChild(motto);
             card.appendChild(year);
             card.appendChild(pop);
