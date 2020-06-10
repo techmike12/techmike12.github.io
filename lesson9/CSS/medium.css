@@ -36,7 +36,11 @@
 		display: none;
     }
 
-
+    .towncard {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 10px;
+    }
 
     footer {
         font-size: 1em;

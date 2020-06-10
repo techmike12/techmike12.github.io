@@ -23,11 +23,6 @@ function toggleMenu ()  {
 
 }
 
-/*Rating*/
-function adjustRating(rating) {
-    document.getElementById("ratingvalue").innerHTML = rating;
-}
-
 /*Getting data for towns*/
 const requestURL = 'https://raw.githubusercontent.com/techmike12/techmike12.github.io/master/lesson9/data/towndata.json';
 
@@ -41,31 +36,33 @@ fetch(requestURL)
 
     //Create elements and content in HTML
     for (let i = 0; i < towns.length; i++ ) {
-        let card = document.createElement('section');
-        let name = document.createElement('h2');
-        let motto = document.createElement('h3');
-        let year = document.createElement('p');
-        let image = document.createElement('img');
-        let pop = document.createElement('p');
-        let rain = document.createElement('p');
-
-        //Create content
-        image.setAttribute('src', towns[i].photo);
-        image.setAttribute('alt', towns[i].name);
-        name.textContent = towns[i].name;
-        motto.textContent = towns[i].motto;
-        year.textContent = 'Year Founded: ' + towns[i].yearFounded;
-        pop.textContent = 'Population: ' + towns[i].currentPopulation;
-        rain.textContent = 'Annual Rain Fall: ' + towns[i].averageRainfall;
-
-        //Add elements into section
-        card.appendChild(image);
-        card.appendChild(name);
-        card.appendChild(name);
-        card.appendChild(motto);
-        card.appendChild(year);
-        card.appendChild(pop);
-        card.appendChild(rain);
-        document.querySelector('div.towncard').appendChild(card);
+        //Check content for the three towns
+        if (towns[i].name == "Preston" || towns[i].name == "Fish Haven" || towns[i].name == "Soda Springs") {
+            //Create Element Variables
+            let card = document.createElement('section');
+            let name = document.createElement('h2');
+            let motto = document.createElement('p');
+            let year = document.createElement('p');
+            let image = document.createElement('img');
+            let pop = document.createElement('p');
+            let rain = document.createElement('p');
+            //Create Content
+            image.setAttribute('src', 'Images/' + towns[i].photo);
+            image.setAttribute('alt', towns[i].name);
+            name.textContent = towns[i].name;
+            motto.textContent = towns[i].motto;
+            year.textContent = 'Year Founded: ' + towns[i].yearFounded;
+            pop.textContent = 'Population: ' + towns[i].currentPopulation;
+            rain.textContent = 'Annual Rain Fall: ' + towns[i].averageRainfall;
+            //Add elements into section
+            card.appendChild(image);
+            card.appendChild(name);
+            card.appendChild(name);
+            card.appendChild(motto);
+            card.appendChild(year);
+            card.appendChild(pop);
+            card.appendChild(rain);
+            document.querySelector('div.towncard').appendChild(card);
+        }
     }
   });

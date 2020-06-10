@@ -24,6 +24,7 @@ p {
     font-size: 1em;
     color: #002D52;
     text-align: center;
+    padding: 2%;
 }
 
 nav {
@@ -128,6 +129,22 @@ h2 {
     margin: 10px;
 }
 
+section {
+    display: block;
+	max-width: 600px;
+    margin: .5rem auto;
+    border: 2px solid #002D52;
+}
+
+section > img {
+    width: 100%;
+}
+
+.towncard {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 2px;
+}
 
 footer {
     background-color: #002D52;

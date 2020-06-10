@@ -152,7 +152,7 @@ img[data-src] {
 img {
     filter: blur(0em);
     transition: filter .5s;
-  }
+}
 
 footer {
     background-color: #002D52;
