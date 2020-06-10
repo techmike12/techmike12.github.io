@@ -29,7 +29,7 @@ function adjustRating(rating) {
 }
 
 /*Getting data for towns*/
-const requestURL = 'https://techmike12/techmike12.github.io\lesson9\data\towndata.json';
+const requestURL = 'https://raw.githubusercontent.com/techmike12/techmike12.github.io/master/lesson9/data/towndata.json';
 
 fetch(requestURL)
   .then(function (response) {
