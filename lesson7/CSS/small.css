@@ -16,6 +16,7 @@ header {
     justify-content: center;
     align-items: center;
     height: 80px;
+    font-family: Righteous;
 }
 
 p {
@@ -94,11 +95,13 @@ h3 {
     margin: 5px;
     color: #002D52;
     text-decoration: underline;
+    font-family: Righteous;
 }
 
 h2 {
     color: #B86602;
     text-align: center;
+    font-family: Righteous;
 }
 
 #subtitle {

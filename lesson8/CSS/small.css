@@ -88,6 +88,7 @@ nav ul li a:hover {
 h1{
     font-size: 2em;
     color: white;
+    font-family: Righteous;
 }
 
 h3 {
@@ -95,11 +96,13 @@ h3 {
     margin: 5px;
     color: #002D52;
     text-decoration: underline;
+    font-family: Righteous;
 }
 
 h2 {
     color: #B86602;
     text-align: center;
+    font-family: Righteous;
 }
 
 #subtitle {
@@ -134,6 +137,7 @@ form fieldset {
     border: 2px solid #002D52;
     border-radius: 12px;
     padding: 2em 2%;
+    font-family: Righteous;
 }
 
 form legend {
@@ -186,13 +190,16 @@ form label.storm {
 }
 
 form input.submitBtn {
+    display: block;
     border: none;
     background-color: #B86602;
     color: white;
     border-radius: 12px;
     padding: .75rem 1.5rem;
-    margin: 0 0 2rem 8%;
-    width: 85%;
+    margin-bottom: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
     max-width: 20em;
 }
 

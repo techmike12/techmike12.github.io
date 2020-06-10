@@ -40,10 +40,6 @@
         grid-template-columns: repeat(2, 1fr);
     }
 
-    form input.submitBtn {
-        margin: 0 0 2rem 20%;
-    }
-
     form label.top input, form label.top select {
         max-width: 20rem;
     }
