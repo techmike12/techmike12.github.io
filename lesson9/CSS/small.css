@@ -24,7 +24,6 @@ p {
     font-size: 1em;
     color: #002D52;
     text-align: center;
-    padding: 2%;
 }
 
 nav {
@@ -107,6 +106,12 @@ h2 {
     font-family: Righteous;
 }
 
+h4 {
+    text-align: center;
+    font-style: italic;
+    padding: 2%;
+}
+
 #subtitle {
     font-size: 1em;
     color: black;
@@ -127,6 +132,10 @@ h2 {
     padding: 0 1em 1em 1em;
     height: 60px;
     margin: 10px;
+}
+
+section > p {
+    padding: 2%;
 }
 
 section {

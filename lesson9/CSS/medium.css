@@ -42,6 +42,15 @@
         grid-gap: 10px;
     }
 
+    .towncard:nth-child(odd) img {
+        grid-column: 2;
+    }
+
+    .towncard:nth-child(odd) p {
+        grid-column: 1;
+        grid-row: 1;
+    }
+
     footer {
         font-size: 1em;
         width: 80%;

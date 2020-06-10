@@ -40,17 +40,17 @@ fetch(requestURL)
         if (towns[i].name == "Preston" || towns[i].name == "Fish Haven" || towns[i].name == "Soda Springs") {
             //Create Element Variables
             let card = document.createElement('section');
-            let name = document.createElement('h2');
-            let motto = document.createElement('p');
-            let year = document.createElement('p');
             let image = document.createElement('img');
+            let name = document.createElement('h2');
+            let motto = document.createElement('h4');
+            let year = document.createElement('p');
             let pop = document.createElement('p');
             let rain = document.createElement('p');
             //Create Content
             image.setAttribute('src', 'Images/' + towns[i].photo);
             image.setAttribute('alt', towns[i].name);
             name.textContent = towns[i].name;
-            motto.textContent = towns[i].motto;
+            motto.textContent = '\"' + towns[i].motto +'\"';
             year.textContent = 'Year Founded: ' + towns[i].yearFounded;
             pop.textContent = 'Population: ' + towns[i].currentPopulation;
             rain.textContent = 'Annual Rain Fall: ' + towns[i].averageRainfall;
