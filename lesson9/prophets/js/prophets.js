@@ -1,4 +1,4 @@
-const requestURL = 'lesson9/data/towndata.json';
+const requestURL = 'https://byui-cit230.github.io/lessons/lesson-09/data/latter-day-prophets.json';
 
 fetch(requestURL)
   .then(function (response) {
@@ -8,7 +8,7 @@ fetch(requestURL)
     console.table(jsonObject);  // temporary checking for valid response and data parsing
     const prophets = jsonObject['prophets'];
 
-    //Create elements and content in HTML
+    //Create elements and content in
     for (let i = 0; i < prophets.length; i++ ) {
         let card = document.createElement('section');
         let h2 = document.createElement('h2');
