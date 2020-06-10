@@ -42,23 +42,30 @@ fetch(requestURL)
     //Create elements and content in HTML
     for (let i = 0; i < towns.length; i++ ) {
         let card = document.createElement('section');
-        let h2 = document.createElement('h2');
-        let birth = document.createElement('p');
-        let birthplace = document.createElement('p');
+        let name = document.createElement('h2');
+        let motto = document.createElement('h3');
+        let year = document.createElement('p');
         let image = document.createElement('img');
+        let pop = document.createElement('p');
+        let rain = document.createElement('p');
 
         //Create content
-        birth.textContent = 'Date of Birth: ' + prophets[i].birthdate;
-        birthplace.textContent = 'Place of Birth: ' + prophets[i].birthplace;
-        image.setAttribute('src', prophets[i].imageurl);
-        image.setAttribute('alt', prophets[i].name + prophets.lastname + " - " + prophets.order);
-        h2.textContent = prophets[i].name + ' ' + prophets[i].lastname;
+        image.setAttribute('src', towns[i].photo);
+        image.setAttribute('alt', towns[i].name);
+        name.textContent = towns[i].name;
+        motto.textContent = towns[i].motto;
+        year.textContent = 'Year Founded: ' + towns[i].yearFounded;
+        pop.textContent = 'Population: ' + towns[i].currentPopulation;
+        rain.textContent = 'Annual Rain Fall: ' + towns[i].averageRainfall;
 
         //Add elements into section
-        card.appendChild(h2);
-        card.appendChild(birth);
-        card.appendChild(birthplace);
         card.appendChild(image);
+        card.appendChild(name);
+        card.appendChild(name);
+        card.appendChild(motto);
+        card.appendChild(year);
+        card.appendChild(pop);
+        card.appendChild(rain);
         document.querySelector('div.towncard').appendChild(card);
     }
   });

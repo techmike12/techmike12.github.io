@@ -169,6 +169,7 @@ form span.options {
 
 #comments {
     height: 80px;
+    width: 200px;
 }
 
 form label.top input, form label.top select {

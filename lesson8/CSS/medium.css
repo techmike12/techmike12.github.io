@@ -40,6 +40,11 @@
         grid-template-columns: repeat(2, 1fr);
     }
 
+    #comments {
+        height: 80px;
+        width: 500px;
+    }
+
     form label.top input, form label.top select {
         max-width: 20rem;
     }
