@@ -134,6 +134,11 @@ h4 {
     margin: 10px;
 }
 
+#welcome {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
 section > p {
     padding: 2%;
 }

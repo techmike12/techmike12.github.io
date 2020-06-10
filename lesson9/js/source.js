@@ -58,6 +58,7 @@ fetch(requestURL)
 
             //Add elements into section
             card.appendChild(image);
+            card.appendChild(name);
             card.appendChild(motto);
             card.appendChild(year);
             card.appendChild(pop);
