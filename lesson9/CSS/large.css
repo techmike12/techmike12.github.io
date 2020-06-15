@@ -1,4 +1,4 @@
-@media only screen and (min-width: 56em) {
+@media only screen and (min-width: 52em) {
 	#logo {
         height: 90px;
 	}
@@ -12,9 +12,13 @@
         margin-top: 35px;
     }
 
+    .towncard section{
+        display: block;
+    }
+
     .towncard {
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: 1fr 1fr 1fr;
         grid-gap: 10px;
     }
 
