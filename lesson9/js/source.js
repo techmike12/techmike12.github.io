@@ -38,15 +38,17 @@ fetch(requestURL)
     for (let i = 0; i < towns.length; i++ ) {
         //Check content for the three towns
         if (towns[i].name == "Preston" || towns[i].name == "Fish Haven" || towns[i].name == "Soda Springs") {
+            let prefix = towns[i].name == "Preston" ? "p" : towns[i].name == "Soda Springs" ? "ss" : towns[i].name == "Fish Haven" ? "fh" : "";
+
             //Create section/Image
             let card = document.createElement('section');
+            card.setAttribute('id', prefix + '_section')
             let image = document.createElement('img');
             image.setAttribute('src', 'Images/' + towns[i].photo);
             image.setAttribute('alt', towns[i].name);
             image.setAttribute('class', 'cityImage');
 
             //Create div for city details
-            let prefix = towns[i].name == "Preston" ? "p" : towns[i].name == "Soda Springs" ? "ss" : towns[i].name == "Fish Haven" ? "fh" : "";
             image.setAttribute('id', prefix + '_image');
             let detail = document.createElement('div');
             detail.setAttribute('class', 'cityDetail')

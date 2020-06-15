@@ -46,12 +46,12 @@
         grid-template-columns: 1fr 1fr;
     }
 
-    #p_image {
+    #ss_image {
         grid-column: 2;
         grid-row: 2;
     }
 
-    #p_detail {
+    #ss_detail {
         grid-column: 1;
         grid-row: 2;
     }
