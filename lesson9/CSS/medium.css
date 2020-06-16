@@ -41,6 +41,103 @@
 		display: none;
     }
 
+    #hero img {
+        max-width: 75%;
+        position: relative;
+    }
+
+    #summary {
+        width: 250px;
+        font-size: 1em;
+    }
+
+    header {
+        justify-content: flex-start;
+    }
+
+    .fiveDay {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-gap: 5px;
+        justify-content: center;
+    }
+
+    #forecast-title {
+        display: block;
+    }
+
+    #day1, #day2, #day3, #day4, #day5 {
+        border: 1px solid black;
+        padding: 5px;
+        background-color: rgb(180, 176, 176);
+        margin: 5px;
+    }
+
+    #day1 {
+        grid-column: 1;
+    }
+
+    #day2 {
+        grid-column: 2;
+    }
+
+    #day3 {
+        grid-column: 3;
+    }
+
+    #day4 {
+        grid-column: 4;
+    }
+
+    #day5 {
+        grid-column: 5;
+    }
+
+    .weather_icon {
+        width: 100%;
+    }
+
+    .fiveDay h3 {
+        text-align: center;
+    }
+
+    .article {
+        display: block;
+    }
+
+    #articleImg {
+        width: 50%;
+        margin: 2% 2% 0 2%;
+        float: right;
+    }
+
+    #content {
+        grid-column: 1;
+        text-align: left;
+    }
+
+    #mapLink {
+        margin: auto;
+    }
+
+    .contactUs {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .contact {
+        margin: auto;
+        text-align: left;
+        grid-column-start: 2;
+        grid-column-end: auto;
+        grid-row: auto;
+    }
+
+    #map {
+        grid-column-start: 1;
+        grid-column-end: auto;
+        grid-row: auto;
+    }
+
     .towncard section{
         display: grid;
         grid-template-columns: 1fr 1fr;
