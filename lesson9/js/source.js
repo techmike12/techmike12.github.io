@@ -100,6 +100,7 @@ function adjustRating(rating) {
 }
 
 /*Load images as user scrolls*/
+function loadImages() {
 const images = document.querySelectorAll("img[data-src]");
 
 const imgOptions = {
@@ -133,4 +134,5 @@ images.forEach(image => {
     imagesToLoad.forEach((img) => {
         loadImages(img);
     });
+}
 }
