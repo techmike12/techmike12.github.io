@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Michael Kendall">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name= "description" content="Gallery">
+    <link rel="stylesheet" href="CSS/normalize.css">
+    <link rel="stylesheet" href="CSS/small.css">
+    <link rel="stylesheet" href="CSS/medium.css">
+    <link rel="stylesheet" href="CSS/large.css">
+    <link rel="icon" href="./Images/favicon.ico">
+    <title>Weather News | Gallery</title>
+</head>
+<header>
+    <img id="logo" src="./Images/weather_logo.jpg" alt="Sun and cloud">
+    <div id="titles">
+    <h1 id="title">Weather News</h1>
+    <p id="subtitle">"Your weather live and on demand"</p>
+    </div>
+</header>
+<nav>
+	<ul class="navigation">
+        <li><a id="ham" href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+		<li><a href="../lesson9/index.html">Home</a></li>
+		<li><a href="../lesson6/preston-6.html">Preston</a></li>
+		<li><a href="#">Soda Springs</a></li>
+        <li><a href="#">Fish Haven</a></li>
+        <li><a href="../lesson8/stormcenter.html">Storm Center</a></li>
+        <li><a class="active" href="gallery-7.html">Gallery</a></li>
+	</ul>
+</nav>
+<main>
+    <h2>Weather Gallery</h2>
+    <section id="gallery">
+        <figure>
+            <img class="weather-images" src="./Images/placeholder.jpg" data-src="./Images/clouds.jpg" alt="Clouds">
+            <figcaption>Cloudy day on the farm.</figcaption>
+        </figure>
+        <figure>
+            <img class="weather-images" src="./Images/placeholder.jpg" data-src="./Images/lightning.jpg" alt="Lightning">
+            <figcaption>Lightning storm at night.</figcaption>
+        </figure>
+        <figure>
+            <img class="weather-images" src="./Images/placeholder.jpg" data-src="./Images/rainbow.jpg" alt="Rainbow">
+            <figcaption>There is always a rainbow after the storm.</figcaption>
+        </figure>
+        <figure>
+            <img class="weather-images" src="./Images/placeholder.jpg" data-src="./Images/snow.jpg" alt="Snow">
+            <figcaption>Its beginning to snow, time to get up to the cabin.</figcaption>
+        </figure>
+        <figure>
+            <img class="weather-images" src="./Images/placeholder.jpg" data-src="./Images/lightning2.jpg" alt="Lightning">
+            <figcaption>Lightning storm over the city.</figcaption>
+        </figure>
+        <figure>
+            <img class="weather-images" src="./Images/placeholder.jpg" data-src="./Images/snow2.jpg" alt="Snow">
+            <figcaption>Its beginning to snow in the city.</figcaption>
+        </figure>
+        <figure>
+            <img class="weather-images" src="./Images/placeholder.jpg" data-src="./Images/rainbow2.jpg" alt="Rainbow">
+            <figcaption>A rainbow after a storm on the lake.</figcaption>
+        </figure>
+        <figure>
+            <img class="weather-images" src="./Images/placeholder.jpg" data-src="./Images/lightning3.jpg" alt="Lightning">
+            <figcaption>Lighting is coming to the farm.</figcaption>
+        </figure>
+        <figure>
+            <img class="weather-images" src="./Images/placeholder.jpg" data-src="./Images/tornado.jpg" alt="Tornado">
+            <figcaption>Tornado in the open plains.</figcaption>
+        </figure>
+    </section>
+</main>
+<footer>
+    <div>&copy; <span id="copyright"></span> Weather News | Attributions | Michael Kendall</div>
+    <span id="modified"></span>
+</footer>
+<script src="./js/source.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+<script>
+    WebFont.load({
+        google: {families: ['Righteous']}});
+</script>
+</html>

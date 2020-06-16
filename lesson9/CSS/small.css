@@ -141,6 +141,113 @@ h4 {
     margin: 10px;
 }
 
+form {
+    max-width: 900px;
+    margin: auto;
+}
+
+form fieldset {
+    margin: 0 2em 2em 2em;
+    border: 2px solid #002D52;
+    border-radius: 12px;
+    padding: 2em 2%;
+    font-family: Righteous;
+}
+
+form label.top, form div {
+    display: block;
+    padding-top: 1.5em;
+    color: #002D52;
+    font-size: .8em;
+    font-weight: bold;
+    top: 7px;
+    left: 4px;
+}
+
+form label.radio {
+    display: block;
+    padding-top: 1.5em;
+    position: relative;
+}
+
+form span.options {
+    margin-left: 5px;
+}
+
+#comments {
+    height: 80px;
+    width: 200px;
+}
+
+form label.top input, form label.top select {
+    display: block;
+    font-size: 1rem;
+    border: solid 1px #999;
+    border-radius: 5px;
+    padding: .75rem;
+    color: #555;
+    width: 100%;
+    max-width: 10rem;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+form label.storm {
+    display: block;
+    padding: .75rem;
+    color: #555;
+}
+
+form input.submitBtn {
+    display: block;
+    border: none;
+    background-color: #B86602;
+    color: white;
+    border-radius: 12px;
+    padding: .75rem 1.5rem;
+    margin-bottom: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 20em;
+}
+
+form label.top input:required {
+    border-left: red solid 6px;
+}
+
+form label.top input:required:valid {
+    border-left: green solid 6px;
+}
+
+#gallery {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 5px;
+}
+
+.weather-images {
+    width: 100%;
+}
+
+figure {
+    border: 2px solid #002D52;
+}
+
+figcaption {
+    padding: 5px;
+    text-align: center;
+}
+
+img[data-src] {
+    filter: blur(0.2em);
+    transition: filter .5s;
+}
+
+img {
+    filter: blur(0em);
+    transition: filter .5s;
+}
+
 #welcome {
     font-weight: bold;
     font-size: 1.5em;

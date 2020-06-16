@@ -41,6 +41,19 @@
 		display: none;
     }
 
+    #comments {
+        height: 80px;
+        width: 500px;
+    }
+
+    form label.top input, form label.top select {
+        max-width: 20rem;
+    }
+
+    #gallery {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
     #hero img {
         max-width: 75%;
         position: relative;
