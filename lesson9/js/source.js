@@ -24,6 +24,7 @@ function toggleMenu ()  {
 }
 
 /*Getting data for towns*/
+function loadTowns() {
 const requestURL = 'https://raw.githubusercontent.com/techmike12/techmike12.github.io/master/lesson9/data/towndata.json';
 
 fetch(requestURL)
@@ -78,9 +79,9 @@ fetch(requestURL)
         }
     }
   });
+}
 
 /*Banner at top of screen for Friday's*/
-document.getElementById("banner").innerHTML = banner();
 function banner() {
     var today = new Date();
     const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
@@ -90,7 +91,7 @@ function banner() {
     } else {
         document.getElementById("banner").style.display="none";
     }
-    return "Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion."
+    document.getElementById("banner").innerHTML = "Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion."
 }
 
 /*Rating*/
