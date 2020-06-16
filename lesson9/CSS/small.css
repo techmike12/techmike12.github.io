@@ -257,13 +257,6 @@ img {
     padding: 2%;
 }
 
-section {
-    display: block;
-	max-width: 600px;
-    margin: .5rem auto;
-    border: 2px solid #002D52;
-}
-
 .prestonSection {
     text-align: center;
     margin-left: auto;
@@ -425,6 +418,13 @@ section > img {
 #ss_section {
     grid-column: 1;
     grid-row: 2;
+}
+
+#fh_section, #ss_section, #p_section {
+    display: block;
+	max-width: 600px;
+    margin: .5rem auto;
+    border: 2px solid #002D52;
 }
 
 footer {
