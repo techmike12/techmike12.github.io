@@ -426,6 +426,13 @@ section > img {
     border: 2px solid #002D52;
 }
 
+#wireframe {
+    font-size: 1.3em;
+    margin: 10px;
+    display: block;
+    text-align: center;
+}
+
 footer {
     background-color: #002D52;
     height: 50px;
