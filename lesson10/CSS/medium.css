@@ -76,6 +76,7 @@
 
     #forecast-title {
         display: block;
+        text-align: center;
     }
 
     #day1, #day2, #day3, #day4, #day5 {
