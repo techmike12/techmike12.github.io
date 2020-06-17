@@ -166,7 +166,15 @@ fetch(apiURL)
   .then((response) => response.json())
   .then((preston) => {
     console.log(preston);
-    const prestonArray = preston.list;
+
+    /*Get correct day for forecast*/
+    /*Display as Month/Date*/
+
+    /*Get description*/
+    /*discription.charAt(0).toUpperCase() + discription.slice(1);*/
+
+    /*Get temp-max*/
+    /*<b>78</b> + temp-max+ &#176;F*/
 
   });
 }
