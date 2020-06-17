@@ -160,7 +160,7 @@ fetch(apiURL)
 }
 
 /*Weather 5 day forecast for Preston page*/
-function prestonForecast() {
+/*function prestonForecast() {
     const apiURL = "http://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&APPID=96515e8b6f69b72205d859e040349332";
 fetch(apiURL)
   .then((response) => response.json())
@@ -176,5 +176,5 @@ fetch(apiURL)
     /*Get temp-max*/
     /*<b>78</b> + temp-max+ &#176;F*/
 
-  });
-}
+//  });
+//}
