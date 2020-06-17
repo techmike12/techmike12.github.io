@@ -160,21 +160,83 @@ fetch(apiURL)
 }
 
 /*Weather 5 day forecast for Preston page*/
-/*function prestonForecast() {
+function prestonForecast() {
     const apiURL = "http://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&APPID=96515e8b6f69b72205d859e040349332";
 fetch(apiURL)
   .then((response) => response.json())
   .then((preston) => {
     console.log(preston);
+    const prestonList = preston.list;
+    let counter = 0;
+    for (let i = 0; i < prestonList.length; i++ ) {
+        let day = prestonList[i].dt_txt;
+        if (day.substr(11, 19) == '18:00:00') {
+            counter++
+            /*Get correct day for forecast*/
+            /*Display as Month/Day*/
+            const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+            let monthDate = parseInt(day[5] + day[6]);
+            let date = day[8] + day[9];
+            let month;
+            switch (monthDate) {
+                case 1:
+                    month = months[1];
+                break;
+                case 2:
+                    month = months[1];
+                break;
+                case 3:
+                    month = months[1];
+                break;
+                case 4:
+                    month = months[1];
+                break;
+                case 5:
+                    month = months[1];
+                break;
+                case 6:
+                    month = months[1];
+                break;
+                case 7:
+                    month = months[1];
+                break;
+                case 8:
+                    month = months[1];
+                break;
+                case 9:
+                    month = months[1];
+                break;
+                case 10:
+                    month = months[1];
+                break;
+                case 11:
+                    month = months[1];
+                break;
+                case 12:
+                    month = months[1];
+                break;
+            }
+            let fullDate = month + " " + date;
+            let dateElement = 'date' + counter;
+            document.getElementById(dateElement).innerHTML = fullDate;
 
-    /*Get correct day for forecast*/
-    /*Display as Month/Date*/
+            /*Get description*/
+            let discriptionLower = prestonList[i].weather[0].description;
+            let discription = discriptionLower.charAt(0).toUpperCase() + discriptionLower.slice(1);
+            let discriptionElement = 'condition' + counter;
+            document.getElementById(discriptionElement).innerHTML = discription;
 
-    /*Get description*/
-    /*discription.charAt(0).toUpperCase() + discription.slice(1);*/
+            /*Get temp-max*/
+            let temp = Math.round(prestonList[i].main.temp_max) + " &#176;F";
+            let tempElement = 'day' + counter + '_weather';
+            document.getElementById(tempElement).innerHTML = temp;
 
-    /*Get temp-max*/
-    /*<b>78</b> + temp-max+ &#176;F*/
-
-//  });
-//}
+            /*Icon for weather*/
+            const imagesrc = 'https://openweathermap.org/img/w/' + prestonList[i].weather[0].icon + '.png';
+            let imageElement = 'weather_icon' + counter;
+            document.getElementById(imageElement).setAttribute('src', imagesrc);
+            document.getElementById(imageElement).setAttribute('alt', discription);
+        }
+    }
+  });
+}

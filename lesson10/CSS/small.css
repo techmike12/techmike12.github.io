@@ -225,7 +225,7 @@ form label.top input:required:valid {
     grid-gap: 5px;
 }
 
-.weather-images {
+#weather_icon1, #weather_icon2, #weather_icon3, #weather_icon4, #weather_icon5 {
     width: 100%;
 }
 
@@ -316,6 +316,10 @@ section > img {
     text-align: left;
 }
 
+#day1_weather, #day2_weather, #day3_weather, #day4_weather, #day5_weather {
+    font-weight: bold;
+}
+
 .article {
     display: flex;
     flex-direction: column;
@@ -333,6 +337,7 @@ section > img {
 
 .article h3 {
     text-align: center;
+    font-size: 1em;
 }
 
 #content {
