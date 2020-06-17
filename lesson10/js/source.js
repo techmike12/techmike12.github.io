@@ -149,7 +149,7 @@ fetch(apiURL)
     let current = discription.charAt(0).toUpperCase() + discription.slice(1);
     const high = "<b>High: </b>" + Math.round(preston.main.temp_max) + " &#176;F";
     const currently = "<b>Currently: </b>" + current;
-    const humidity = "<b>Humidity: </b>" + preston.main.humidity;
+    const humidity = "<b>Humidity: </b>" + preston.main.humidity + "%";
     const windspeed = "<b>Windspeed: </b>" + Math.round(preston.wind.speed) + " mph";
 
     document.getElementById('high').innerHTML = high;
