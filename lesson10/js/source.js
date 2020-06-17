@@ -202,3 +202,17 @@ fetch(apiURL)
     }
   });
 }
+
+/*Calculate Wind Chill for Weather Summary*/
+function windChill() {
+    var high = document.getElementById("high").innerHTML;
+    const windspeed = document.getElementById('windspeed').innerHTML;
+    /*Calculate wind chill*/
+    let windchill = 35.74 + (0.6215 * high) - (35.75 * (windspeed ** .16)) + (0.4275 * high * (windspeed ** .16));
+    /*Return message*/
+    if (high <= 50 && windspeed > 3) {
+        document.getElementById("windchill").innerHTML = "<b>Wind Chill: </b>" + Math.round(windchill) + " &#176F";
+    } else {
+        document.getElementById("windchill").innerHTML = "<b>Wind Chill: </b>" + "N/A";
+    }
+}
