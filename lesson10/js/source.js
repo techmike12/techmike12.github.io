@@ -139,7 +139,7 @@ images.forEach(image => {
 
 /*Weather summary for Preston page*/
 function prestonWeather() {
-    const apiURL = "http://api.openweathermap.org/data/2.5/weather?id=5604473&units=imperial&APPID=96515e8b6f69b72205d859e040349332";
+    const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=5604473&units=imperial&APPID=96515e8b6f69b72205d859e040349332";
 fetch(apiURL)
   .then((response) => response.json())
   .then((preston) => {
