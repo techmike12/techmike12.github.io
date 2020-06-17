@@ -71,7 +71,6 @@
     .fiveDay {
         display: grid;
         grid-template-columns: repeat(5, 1fr);
-        grid-gap: 5px;
         justify-content: center;
     }
 
@@ -82,9 +81,13 @@
     #day1, #day2, #day3, #day4, #day5 {
         border: 1px solid black;
         padding: 3px;
-        background-color: rgb(180, 176, 176);
+        background-color: #002D52;
         margin: 3px;
         font-size: .8em;
+    }
+
+    #weather_icon1, #weather_icon2, #weather_icon3, #weather_icon4, #weather_icon5 {
+        width: 50%;
     }
 
     #day1 {
@@ -112,8 +115,12 @@
         text-align: left;
     }
 
-    #day1_weather, #day2_weather, #day3_weather, #day4_weather, #day5_weather {
-        font-weight: bold;
+    #day1_weather, #day2_weather, #day3_weather, #day4_weather, #day5_weather,
+    #condition1, #condition2, #condition3, #condition4, #condition5, #date1,
+    #date2, #date3, #date4, #date5 {
+        color: #59C1FF;
+        font-family: Righteous;
+        font-weight: lighter;
     }
 
     .fiveDay div {
