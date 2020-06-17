@@ -81,9 +81,9 @@
 
     #day1, #day2, #day3, #day4, #day5 {
         border: 1px solid black;
-        padding: 5px;
+        padding: 3px;
         background-color: rgb(180, 176, 176);
-        margin: 5px;
+        margin: 3px;
         font-size: .8em;
     }
 
@@ -105,6 +105,20 @@
 
     #day5 {
         grid-column: 5;
+    }
+
+    #forecast {
+        display: grid;
+        text-align: left;
+    }
+
+    #day1_weather, #day2_weather, #day3_weather, #day4_weather, #day5_weather {
+        font-weight: bold;
+    }
+
+    .fiveDay div {
+        text-align: center;
+        font-size: 1.5em;
     }
 
     .weather_icon {

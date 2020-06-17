@@ -311,20 +311,6 @@ section > img {
     display: none;
 }
 
-#forecast {
-    display: grid;
-    text-align: left;
-}
-
-#day1_weather, #day2_weather, #day3_weather, #day4_weather, #day5_weather {
-    font-weight: bold;
-}
-
-.fiveDay div {
-    text-align: center;
-    font-size: 1.5em;
-}
-
 .article {
     display: flex;
     flex-direction: column;
