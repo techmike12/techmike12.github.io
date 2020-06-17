@@ -146,6 +146,10 @@
         grid-row: auto;
     }
 
+    .contact p {
+        text-align: left;
+    }
+
     #map {
         grid-column-start: 1;
         grid-column-end: auto;
