@@ -1,0 +1,449 @@
+#banner {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #59C1FF;
+    margin: auto;
+    height: 50px;
+    color: #002D52;
+    font-weight: bold;
+}
+
+header {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    font-family: Righteous;
+}
+
+p {
+    margin: 0;
+    font-size: 1em;
+    color: #002D52;
+    text-align: center;
+}
+
+.class {
+    margin: 0 0 10px 0;
+    font-size: 1em;
+    color: #002D52;
+}
+
+nav {
+    background-color: #002D52;
+    text-align: center;
+}
+
+.navigation {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+    overflow: hidden;
+}
+
+.navigation li:first-child {
+    display: block;
+    font-weight: bold;
+	text-align: center;
+	padding: 0.75rem;
+	text-decoration: none;
+    font-size: 0.95rem;
+}
+
+.navigation li {
+    display: none;
+    border-right: 1px solid white;
+}
+
+.navigation a {
+	display: block;
+    padding: .8rem 2%;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+    font-weight: 700;
+}
+
+nav ul li a.active {
+    color: #002D52;
+    background-color: #59C1FF;
+}
+
+nav ul li a:hover {
+    color: #196FFF;
+}
+
+.responsive li {
+    display: block;
+}
+
+.responsiveClose li {
+    display: none;
+}
+
+#ham {
+    margin: .2rem 2%;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    color: white;
+}
+
+h1{
+    font-size: 2em;
+    color: white;
+    font-family: Righteous;
+}
+
+h3 {
+    font-size: 1.5em;
+    margin: 5px;
+    color: #002D52;
+    text-decoration: underline;
+    font-family: Righteous;
+}
+
+h2 {
+    color: #B86602;
+    text-align: center;
+    font-family: Righteous;
+}
+
+h4 {
+    text-align: center;
+    font-style: italic;
+    padding: 2%;
+}
+
+#subtitle {
+    font-size: .8em;
+    margin: 0 0 20px 0;
+    color: black;
+    text-decoration: none;
+    font-style: italic;
+    text-align: center;
+}
+
+#title {
+    font-size: 1.8em;
+    color: #B86602;
+    margin: 0em;
+    text-align: center;
+}
+
+#logo {
+    border-radius: 12px;
+    padding: 0 1em 1em 1em;
+    height: 60px;
+    margin: 10px;
+}
+
+form {
+    max-width: 900px;
+    margin: auto;
+}
+
+form fieldset {
+    margin: 0 2em 2em 2em;
+    border: 2px solid #002D52;
+    border-radius: 12px;
+    padding: 2em 2%;
+    font-family: Righteous;
+}
+
+form label.top, form div {
+    display: block;
+    padding-top: 1.5em;
+    color: #002D52;
+    font-size: .8em;
+    font-weight: bold;
+    top: 7px;
+    left: 4px;
+}
+
+form label.radio {
+    display: block;
+    padding-top: 1.5em;
+    position: relative;
+}
+
+form span.options {
+    margin-left: 5px;
+}
+
+#comments {
+    height: 80px;
+    width: 200px;
+}
+
+form label.top input, form label.top select {
+    display: block;
+    font-size: 1rem;
+    border: solid 1px #999;
+    border-radius: 5px;
+    padding: .75rem;
+    color: #555;
+    width: 100%;
+    max-width: 10rem;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+form label.storm {
+    display: block;
+    padding: .75rem;
+    color: #555;
+}
+
+form input.submitBtn {
+    display: block;
+    border: none;
+    background-color: #B86602;
+    color: white;
+    border-radius: 12px;
+    padding: .75rem 1.5rem;
+    margin-bottom: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 20em;
+}
+
+form label.top input:required {
+    border-left: red solid 6px;
+}
+
+form label.top input:required:valid {
+    border-left: green solid 6px;
+}
+
+#gallery {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 5px;
+}
+
+.weather-images {
+    width: 100%;
+}
+
+figure {
+    border: 2px solid #002D52;
+}
+
+figcaption {
+    padding: 5px;
+    text-align: center;
+}
+
+img[data-src] {
+    filter: blur(0.2em);
+    transition: filter .5s;
+}
+
+img {
+    filter: blur(0em);
+    transition: filter .5s;
+}
+
+#welcome {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.cityDetail {
+    padding: 2%;
+}
+
+.prestonSection {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+
+section > img {
+    width: 100%;
+}
+
+#logo {
+    border-radius: 12px;
+    height: 60px;
+    margin: 10px;
+}
+
+.hero {
+    position: relative;
+}
+
+#heropic img {
+    max-width: 100%;
+    margin: 10px auto;
+}
+
+#summary {
+    display: grid;
+    background-color: rgb(180, 176, 176);
+    border-radius: 12px;
+    border: 2px solid black;
+    text-align: left;
+    position: absolute;
+    top: 25px;
+    left: 30px;
+    padding: 10px;
+}
+
+#summary span {
+    margin-left: 10px;
+}
+
+#summary ul {
+    list-style: none;
+}
+
+.fiveDay {
+    display: none;
+}
+
+#forecast-title {
+    display: none;
+}
+
+#forecast {
+    display: grid;
+    text-align: left;
+}
+
+.article {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border: 1px solid black;
+    background-color: rgb(180, 176, 176);
+    margin-bottom: 10px;
+}
+
+#author {
+    font-style: italic;
+    text-align: center;
+    font-size: .8em;
+}
+
+.article h3 {
+    text-align: center;
+}
+
+#content {
+    order: 1;
+    padding: 10px;
+    text-align: center;
+}
+
+#articleImg {
+    order: 2;
+    width: 80%;
+    margin: auto;
+    border: 2px solid #002D52;
+    border-radius: 12px;
+    padding-right: 3px;
+}
+
+#articleImg img {
+    width: 100%;
+    border-radius: 12px;
+    border: 2px solid black;
+}
+
+#articleImg figcaption {
+    text-align: center;
+    font-style: italic;
+}
+
+.contact {
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row: 1;
+    padding: 10px;
+    background-color: rgb(180, 176, 176);
+    margin-bottom: 10px;
+}
+
+#map {
+    max-width: 70%;
+    border: 2px solid black;
+    border-radius: 12px;
+    margin: auto 15%;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row: 2;
+}
+
+#mapIcon, #phone, #email {
+    max-height: 20px;
+}
+
+.contactUs {
+    display: grid;
+    grid-template-columns: 1fr;
+    border: 1px solid black;
+    padding: 10px;
+    background-color: rgb(180, 176, 176);
+    margin-bottom: 10px;
+}
+
+.contact {
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row: 1;
+}
+
+.social {
+    max-width: 25px;
+    max-height: 25px;
+    padding: 5px;
+}
+
+.towncard {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 2px;
+}
+
+#p_section {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+#ss_section {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+#fh_section, #ss_section, #p_section {
+	max-width: 600px;
+    margin: .5rem auto;
+    border: 2px solid #002D52;
+}
+
+#wireframe {
+    font-size: 1.3em;
+    margin: 10px;
+    display: block;
+    text-align: center;
+}
+
+footer {
+    background-color: #002D52;
+    height: 50px;
+    width: 100%;
+    color: white;
+    font-size: .8em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
