@@ -147,7 +147,7 @@ fetch(apiURL)
     let discription = preston.weather[0].description;
     /*Make upper case*/
     let current = discription.charAt(0).toUpperCase() + discription.slice(1);
-    const high = "<b>High: </b>" + preston.main.temp_max + " &#176;F";
+    const high = "<b>High: </b>" + Math.round(preston.main.temp_max) + " &#176;F";
     const currently = "<b>Currently: </b>" + current;
     const humidity = "<b>Humidity: </b>" + preston.main.humidity;
     const windspeed = "<b>Windspeed: </b>" + Math.round(preston.wind.speed) + " mph";
@@ -175,47 +175,9 @@ fetch(apiURL)
             /*Get correct day for forecast*/
             /*Display as Month/Day*/
             const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
-            let monthDate = parseInt(day[5] + day[6]);
+            let monthDate = parseInt((day[5] + day[6]) - 1);
             let date = day[8] + day[9];
-            let month;
-            switch (monthDate) {
-                case 1:
-                    month = months[1];
-                break;
-                case 2:
-                    month = months[1];
-                break;
-                case 3:
-                    month = months[1];
-                break;
-                case 4:
-                    month = months[1];
-                break;
-                case 5:
-                    month = months[1];
-                break;
-                case 6:
-                    month = months[1];
-                break;
-                case 7:
-                    month = months[1];
-                break;
-                case 8:
-                    month = months[1];
-                break;
-                case 9:
-                    month = months[1];
-                break;
-                case 10:
-                    month = months[1];
-                break;
-                case 11:
-                    month = months[1];
-                break;
-                case 12:
-                    month = months[1];
-                break;
-            }
+            let month = months[monthDate];
             let fullDate = month + " " + date;
             let dateElement = 'date' + counter;
             document.getElementById(dateElement).innerHTML = fullDate;
