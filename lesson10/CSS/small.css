@@ -320,6 +320,11 @@ section > img {
     font-weight: bold;
 }
 
+.fiveDay div {
+    text-align: center;
+    font-size: 1.5em;
+}
+
 .article {
     display: flex;
     flex-direction: column;
