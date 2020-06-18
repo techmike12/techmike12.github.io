@@ -51,3 +51,15 @@ footer {
     color: #4d4d96;
     margin: 10px;
 }
+
+@media only screen and (min-width: 32.5em) {
+    .cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media only screen and (min-width: 56em) {
+    .cards {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}

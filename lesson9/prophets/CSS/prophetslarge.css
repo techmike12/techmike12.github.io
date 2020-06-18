@@ -1,5 +1,0 @@
-@media only screen and (min-width: 56em) {
-    .cards {
-        grid-template-columns: repeat(4, 1fr);
-    }
-}
