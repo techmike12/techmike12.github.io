@@ -138,8 +138,8 @@ images.forEach(image => {
 }
 
 /*Weather summary for Preston page*/
-function prestonWeather() {
-    const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=5604473&units=imperial&APPID=96515e8b6f69b72205d859e040349332";
+function prestonWeather(id) {
+    const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=" + id + "&units=imperial&APPID=96515e8b6f69b72205d859e040349332";
 fetch(apiURL)
   .then((response) => response.json())
   .then((preston) => {
@@ -160,8 +160,8 @@ fetch(apiURL)
 }
 
 /*Weather 5 day forecast for Preston page*/
-function prestonForecast() {
-    const apiURL = "https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&APPID=96515e8b6f69b72205d859e040349332";
+function prestonForecast(id) {
+    const apiURL = "https://api.openweathermap.org/data/2.5/forecast?id=" + id + "&units=imperial&APPID=96515e8b6f69b72205d859e040349332";
 fetch(apiURL)
   .then((response) => response.json())
   .then((preston) => {
