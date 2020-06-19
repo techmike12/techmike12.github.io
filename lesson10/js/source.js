@@ -142,15 +142,15 @@ function prestonWeather(id) {
     const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=" + id + "&units=imperial&APPID=96515e8b6f69b72205d859e040349332";
 fetch(apiURL)
   .then((response) => response.json())
-  .then((preston) => {
-    console.log(preston);
-    let discription = preston.weather[0].description;
+  .then((town) => {
+    console.log(town);
+    let discription = town.weather[0].description;
     /*Make upper case*/
     let current = discription.charAt(0).toUpperCase() + discription.slice(1);
-    const high = "<b>High: </b>" + Math.round(preston.main.temp_max) + " &#176;F";
+    const high = "<b>High: </b>" + Math.round(town.main.temp_max) + " &#176;F";
     const currently = "<b>Currently: </b>" + current;
-    const humidity = "<b>Humidity: </b>" + preston.main.humidity + "%";
-    const windspeed = "<b>Windspeed: </b>" + Math.round(preston.wind.speed) + " mph";
+    const humidity = "<b>Humidity: </b>" + town.main.humidity + "%";
+    const windspeed = "<b>Windspeed: </b>" + Math.round(town.wind.speed) + " mph";
 
     document.getElementById('high').innerHTML = high;
     document.getElementById('windspeed').innerHTML = windspeed;
@@ -159,17 +159,17 @@ fetch(apiURL)
   });
 }
 
-/*Weather 5 day forecast for Preston page*/
+/*Weather 5 day forecast town page*/
 function prestonForecast(id) {
     const apiURL = "https://api.openweathermap.org/data/2.5/forecast?id=" + id + "&units=imperial&APPID=96515e8b6f69b72205d859e040349332";
 fetch(apiURL)
   .then((response) => response.json())
-  .then((preston) => {
-    console.log(preston);
-    const prestonList = preston.list;
+  .then((town) => {
+    console.log(town);
+    const townList = town.list;
     let counter = 0;
-    for (let i = 0; i < prestonList.length; i++ ) {
-        let day = prestonList[i].dt_txt;
+    for (let i = 0; i < townList.length; i++ ) {
+        let day = townList[i].dt_txt;
         if (day.substr(11, 19) == '18:00:00') {
             counter++
             /*Get correct day for forecast*/
@@ -183,18 +183,18 @@ fetch(apiURL)
             document.getElementById(dateElement).innerHTML = fullDate;
 
             /*Get description*/
-            let discriptionLower = prestonList[i].weather[0].description;
+            let discriptionLower = townList[i].weather[0].description;
             let discription = discriptionLower.charAt(0).toUpperCase() + discriptionLower.slice(1);
             let discriptionElement = 'condition' + counter;
             document.getElementById(discriptionElement).innerHTML = discription;
 
             /*Get temp-max*/
-            let temp = Math.round(prestonList[i].main.temp_max) + " &#176;F";
+            let temp = Math.round(townList[i].main.temp_max) + " &#176;F";
             let tempElement = 'day' + counter + '_weather';
             document.getElementById(tempElement).innerHTML = temp;
 
             /*Icon for weather*/
-            const imagesrc = 'https://openweathermap.org/img/w/' + prestonList[i].weather[0].icon + '.png';
+            const imagesrc = 'https://openweathermap.org/img/w/' + townList[i].weather[0].icon + '.png';
             let imageElement = 'weather_icon' + counter;
             document.getElementById(imageElement).setAttribute('src', imagesrc);
             document.getElementById(imageElement).setAttribute('alt', discription);
