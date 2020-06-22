@@ -87,9 +87,9 @@
         font-size: .8em;
     }
 
-    #weather_icon1, #weather_icon2, #weather_icon3, #weather_icon4, #weather_icon5 {
+    /*#weather_icon1, #weather_icon2, #weather_icon3, #weather_icon4, #weather_icon5 {
         width: 50%;
-    }
+    }*/
 
     #day1 {
         grid-column: 1;
