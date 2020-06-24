@@ -299,6 +299,27 @@ section > img {
     list-style: none;
 }
 
+.townEvents {
+    display: grid;
+    grid-column: 1fr;
+    background-color: rgb(180, 176, 176);
+    border: 1px solid black;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.townEvents h3 {
+    text-align: center;
+}
+
+.townEvents p {
+    margin: 1px;
+    text-align: center;
+    color: black;
+    padding: 1%;
+}
+
 .fiveDay {
     display: none;
 }

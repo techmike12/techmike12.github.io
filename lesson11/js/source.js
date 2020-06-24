@@ -25,7 +25,7 @@ function toggleMenu ()  {
 
 /*Getting data for towns*/
 function loadTowns() {
-const requestURL = 'https://raw.githubusercontent.com/techmike12/techmike12.github.io/master/lesson9/data/towndata.json';
+const requestURL = 'https://raw.githubusercontent.com/techmike12/techmike12.github.io/master/lesson11/data/towndata.json';
 
 fetch(requestURL)
   .then(function (response) {
@@ -219,4 +219,33 @@ function windChill() {
     } else {
         document.getElementById("windchill").innerHTML = "<b>Wind Chill: </b>" + "N/A";
     }
+}
+
+/*Town events tile*/
+function townEvents(town) {
+    const requestURL = 'https://raw.githubusercontent.com/techmike12/techmike12.github.io/master/lesson11/data/towndata.json';
+
+fetch(requestURL)
+  .then(function (response) {
+    return response.json();
+  })
+  .then(function (jsonObject) {
+    console.table(jsonObject);  // temporary checking for valid response and data parsing
+    const event = jsonObject['towns'];
+
+    //Check for town and get events string
+    for (let i = 0; i < event.length; i++ ) {
+        if (event[i].name == town) {
+            let events = event[i].events;
+            for (x =0; x < events.length; x++) {
+                let card = document.createElement('span');
+                card.setAttribute('id', 'span' + x);
+                let townEvent = document.createElement('p');
+                townEvent.textContent = events[x];
+                card.appendChild(townEvent);
+                document.querySelector('section.townEvents').appendChild(card);
+            }
+        }
+    }
+});
 }

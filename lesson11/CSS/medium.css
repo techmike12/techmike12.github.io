@@ -201,4 +201,12 @@
         width: 80%;
         margin: auto;
     }
+
+    .townEvents {
+        width: 50%;
+    }
+
+    #summary {
+        box-shadow: 1px 1px 15px 5px #002D52;
+    }
 }
