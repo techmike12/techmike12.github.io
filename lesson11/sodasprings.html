@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Michael Kendall">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name= "description" content="Preston Page">
+    <link rel="stylesheet" href="CSS/normalize.css">
+    <link rel="stylesheet" href="CSS/small.css">
+    <link rel="stylesheet" href="CSS/medium.css">
+    <link rel="stylesheet" href="CSS/large.css">
+    <link rel="icon" href="./Images/favicon.ico">
+    <title>Weather News | Town of Soda Springs</title>
+</head>
+<div id="banner"></div>
+<header>
+    <img id="logo" src="./Images/weather_logo.jpg" alt="Sun and cloud">
+    <div id="titles">
+    <h1 id="title">Weather News</h1>
+    <p id="subtitle">"Your weather live and on demand"</p>
+    </div>
+</header>
+<nav>
+	<ul class="navigation">
+        <li><a id="ham" href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+		<li><a href="./index.html">Home</a></li>
+		<li><a href="./preston.html">Preston</a></li>
+		<li><a class="active" href="./sodasprings.html">Soda Springs</a></li>
+        <li><a href="./fishhaven.html">Fish Haven</a></li>
+        <li><a href="./stormcenter.html">Storm Center</a></li>
+        <li><a href="./gallery.html">Gallery</a></li>
+	</ul>
+</nav>
+<main>
+    <h2>Soda Springs Idaho</h2>
+    <div class="hero">
+        <picture id="heropic">
+            <source media="(max-width: 32.5em)" srcset="./Images/sodaspringssmall.jpg">
+            <source media="(max-width: 56em)" srcset="./Images/sodaspringsmedium.jpg">
+            <img src="./Images/sodaspringslarge.jpg" alt="Soda Springs Landscape">
+        </picture>
+            <section id="summary">
+                <h3>Weather Summary</h3>
+                <span id="current"></span>
+                <span id="high"></span>
+                <span id="windchill"></span>
+                <span id="humidity"></span>
+                <span id="windspeed"></span>
+            </section>
+    </div>
+    <h3 id="forecast-title">5 Day Forecast</h3>
+    <section class="fiveDay">
+        <div id="day1">
+            <h3 id="date1"></h3>
+            <div><img src="" alt="" id='weather_icon1'></div>
+            <div id="condition1"></div>
+            <div id="day1_weather"></div>
+        </div>
+        <div id="day2">
+            <h3 id="date2"></h3>
+            <div><img src="" alt="" id='weather_icon2'></div>
+            <div id="condition2"></div>
+            <div id="day2_weather"></div>
+        </div>
+        <div id="day3">
+            <h3 id="date3"></h3>
+            <div><img src="" alt="" id='weather_icon3'></div>
+            <div id="condition3"></div>
+            <div id="day3_weather"></div>
+        </div>
+        <div id="day4">
+            <h3 id="date4"></h3>
+            <div><img src="" alt="" id='weather_icon4'></div>
+            <div id="condition4"></div>
+            <div id="day4_weather"></div>
+        </div>
+        <div id="day5">
+            <h3 id="date5"></h3>
+            <div><img src="" alt="" id='weather_icon5'></div>
+            <div id="condition5"></div>
+            <div id="day5_weather"></div>
+        </div>
+    </section>
+    <div class="article">
+        <h3>From Beer Springs to Soda Springs: How this tiny town became known for its carbonated water</h3>
+        <p id="author">By KTVB Staff</p>
+        <figure id="SodaImg">
+                <picture>
+                    <source media="(max-width: 32.5em)" srcset="./Images/geysersmall.jpg">
+                    <source media="(max-width: 56em)" srcset="./Images/geysermedium.jpg">
+                    <img src="./Images/geyserlarge.jpg" alt="Soda Springs Geyser">
+                </picture>
+            <figcaption>Soda Springs Geyser</figcaption>
+            </figure>
+        <p id="content">SODA SPRINGS, Idaho — It was a pit stop for Oregon Trail pioneers and fur traders
+            while traveling through Eastern Idaho. Often referred to as the 'Oregon Trail Oasis,'
+            it's now known as Soda Springs, a town of just over 3,000 people in Caribou County.
+            <br>
+            <br>
+            As one of the main water sites along the Oregon Trail, travelers would often stop to
+            try the water at the sulfurous springs, which bubbles like boiling water on the surface
+            and emits a destructive, rotten egg smell when the wind is blowing just right.
+            <br>
+            <br>
+            Fur traders first referred to the area as 'Beer Springs' after tasting the water and
+            reportedly said that one of the springs "tasted like beer... flat beer."
+            <br>
+            <br>
+            Today, Beer Springs is now known as Hooper Springs, named after W.H. Hooper,
+            Salt Lake City's leading banker at the time, and the Utah delegate to Congress
+            <br>
+            <br>
+            Hooper had a summer home in the area and would often visit Beer Springs and
+            eventually produced a national marketing campaign for Soda Springs water in the 1880s.
+            <br>
+            <br>
+            Sparkling soda water is still free for visitors to drink at the Soda Springs city park.
+            <br>
+            <br>
+            In 1937, Soda Springs gained notoriety once again. While drilling a hole over 300 feet
+            into the ground in search of hot water for a bathhouse, crews instead unleashed what is now known as The Geyser.
+            <br>
+            <br>
+            Today, it remains as the only regulated, man-made geyser in the world, releasing water up to 100 feet in the
+            air every hour on the hour.
+        </p>
+    </div>
+    <div class="contactUs">
+        <a id="mapLink" rel="noopener" href="https://tinyurl.com/ybp7o6ad" target="_blank"><img id="map" src="./Images/soda.JPG" alt="Soda Springs Idaho Map"></a>
+        <div class="contact">
+        <h3>Weather News</h3>
+        <p><img id="mapIcon" src="./Images/map.png" alt="Map indicator">E 1st St S, Soda Springs, ID 83276</p>
+        <p><img id="phone" src="./Images/phone.png" alt="Phone">888-888-8888</p>
+        <p><img id="email" src="./Images/email.png" alt="Email">weathernews@wn.org</p>
+        <img class="social" src="Images/iconfinder_Colored_Facebook3_svg_5365678.png" alt="Facebook Logo">
+        <img class="social" src="Images/iconfinder_1_Twitter3_colored_svg_5296516.png" alt="Twitter Logo">
+        <img class="social" src="Images/iconfinder_1_Instagram_colored_svg_1_5296765.png" alt="Instagram Logo">
+        <img class="social" src="Images/iconfinder_1_Linkedin_unofficial_colored_svg_5296501.png" alt="LinkedIn Logo">
+        </div>
+    </div>
+</main>
+<footer>
+    <div>&copy; <span id="copyright"></span> Weather News | Attributions | Michael Kendall</div>
+    <span id="modified"></span>
+</footer>
+<script src="./js/source.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+<script>
+    WebFont.load({
+        google: {
+            families: ['Righteous']
+            }});
+    banner();
+    pageWeather('5607916');
+    pageForecast('5607916');
+</script>
+</html>

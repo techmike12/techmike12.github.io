@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Michael Kendall">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name= "description" content="Gallery">
+    <link rel="stylesheet" href="CSS/normalize.css">
+    <link rel="stylesheet" href="CSS/small.css">
+    <link rel="stylesheet" href="CSS/medium.css">
+    <link rel="stylesheet" href="CSS/large.css">
+    <link rel="icon" href="./Images/favicon.ico">
+    <title>Weather News | Storm Center</title>
+</head>
+<header>
+    <img id="logo" src="./Images/weather_logo.jpg" alt="Sun and cloud">
+    <div id="titles">
+    <h1 id="title">Weather News</h1>
+    <p id="subtitle">"Your weather live and on demand"</p>
+    </div>
+</header>
+<nav>
+	<ul class="navigation">
+        <li><a id="ham" href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+		<li><a href="./index.html">Home</a></li>
+		<li><a href="./preston.html">Preston</a></li>
+		<li><a href="./sodasprings.html">Soda Springs</a></li>
+        <li><a href="./fishhaven.html">Fish Haven</a></li>
+        <li><a class="active" href="stormcenter.html">Storm Center</a></li>
+        <li><a href="./gallery.html">Gallery</a></li>
+	</ul>
+</nav>
+<main>
+    <h2>Storm Center</h2>
+    <form method="get" action="thanks.html">
+        <fieldset>
+            <legend>Contact Information</legend>
+            <label class="top">Full Name*: <input type="text" name="name" title="Only Letters, 6 or more characters" pattern="[A-Za-z\s]{5,}" required></label>
+            <label class="top">Phone*: <input type="tel" name="phone" title="Only numbers and 10 digits or greater" pattern="[0-9]{10,}" placeholder="1235551231" required></label>
+            <label class="top">Zipcode: <input type="number" name="ship-zip" required></label>
+            <label class="top">Email: <input type="email" name="email" placeholder="someone@gmail.com"></label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Storm Information</legend>
+            <label class="storm">Storm Date: <input type="date" name="date" ></label>
+            <label class="storm">Storm Type: <input list="stormType" type="list" name="stormType" ></label>
+            <datalist id="stormType">
+                <option value="Flash Flood">
+                <option value="Hail">
+                <option value="Hurricane">
+                <option value="Thunderstorm">
+                <option value="Tornado">
+            </datalist>
+            <label class="storm" for="rating">Storm Severity: &nbsp;&nbsp;&nbsp;
+                <input type="range" id="rating" value="5" min="1" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+                        <span id="ratingvalue">5</span>
+            </label>
+            <label class="storm">Storm Region:
+                <select name="region">
+                    <option value="" selected disabled>Select Region...</option>
+                    <option value="preston">Preston</option>
+                    <option value="soda springs">Soda Springs</option>
+                    <option value="fish haven">Fish Haven</option>
+                </select>
+            </label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Additional Info</legend>
+            <div>In-danger level:</div>
+            <label class="radio"><input type="radio" name="level" value="yes"><span class="options">Yes</span></label>
+            <label class="radio"><input type="radio" name="level" value="maybe"><span class="options">Maybe</span></label>
+            <label class="radio"><input type="radio" name="level" value="no"><span class="options">No</span></label>
+            <label class="top">Comments:</label>
+            <textarea name="comments" id="comments"></textarea>
+        </fieldset>
+        <input type="submit" value='Update Storm' class="submitBtn">
+    </form>
+</main>
+<footer>
+    <div>&copy; <span id="copyright"></span> Weather News | Attributions | Michael Kendall</div>
+    <span id="modified"></span>
+</footer>
+<script src="./js/source.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+<script>
+    WebFont.load({
+        google: {families: ['Righteous']}});
+</script>
+</html>

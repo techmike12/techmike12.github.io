@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Michael Kendall">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name= "description" content="Preston Page">
+    <link rel="stylesheet" href="CSS/normalize.css">
+    <link rel="stylesheet" href="CSS/small.css">
+    <link rel="stylesheet" href="CSS/medium.css">
+    <link rel="stylesheet" href="CSS/large.css">
+    <link rel="icon" href="./Images/favicon.ico">
+    <title>Weather News | Town of Fish Haven</title>
+</head>
+<div id="banner"></div>
+<header>
+    <img id="logo" src="./Images/weather_logo.jpg" alt="Sun and cloud">
+    <div id="titles">
+    <h1 id="title">Weather News</h1>
+    <p id="subtitle">"Your weather live and on demand"</p>
+    </div>
+</header>
+<nav>
+	<ul class="navigation">
+        <li><a id="ham" href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+		<li><a href="./index.html">Home</a></li>
+		<li><a href="./preston.html">Preston</a></li>
+		<li><a href="./sodasprings.html">Soda Springs</a></li>
+        <li><a class="active" href="./fishhaven.html">Fish Haven</a></li>
+        <li><a href="./stormcenter.html">Storm Center</a></li>
+        <li><a href="./gallery.html">Gallery</a></li>
+	</ul>
+</nav>
+<main>
+    <h2>Fish Haven Idaho</h2>
+    <div class="hero">
+        <picture id="heropic">
+            <source media="(max-width: 32.5em)" srcset="./Images/fishhavensmall.jpg">
+            <source media="(max-width: 56em)" srcset="./Images/fishhavenmedium.jpg">
+            <img src="./Images/fishhavenlarge.jpg" alt="Fish Haven Landscape">
+        </picture>
+            <section id="summary">
+                <h3>Weather Summary</h3>
+                <span id="current"></span>
+                <span id="high"></span>
+                <span id="windchill"></span>
+                <span id="humidity"></span>
+                <span id="windspeed"></span>
+            </section>
+    </div>
+    <h3 id="forecast-title">5 Day Forecast</h3>
+    <section class="fiveDay">
+        <div id="day1">
+            <h3 id="date1"></h3>
+            <div><img src="" alt="" id='weather_icon1'></div>
+            <div id="condition1"></div>
+            <div id="day1_weather"></div>
+        </div>
+        <div id="day2">
+            <h3 id="date2"></h3>
+            <div><img src="" alt="" id='weather_icon2'></div>
+            <div id="condition2"></div>
+            <div id="day2_weather"></div>
+        </div>
+        <div id="day3">
+            <h3 id="date3"></h3>
+            <div><img src="" alt="" id='weather_icon3'></div>
+            <div id="condition3"></div>
+            <div id="day3_weather"></div>
+        </div>
+        <div id="day4">
+            <h3 id="date4"></h3>
+            <div><img src="" alt="" id='weather_icon4'></div>
+            <div id="condition4"></div>
+            <div id="day4_weather"></div>
+        </div>
+        <div id="day5">
+            <h3 id="date5"></h3>
+            <div><img src="" alt="" id='weather_icon5'></div>
+            <div id="condition5"></div>
+            <div id="day5_weather"></div>
+        </div>
+    </section>
+    <div class="article">
+        <h3>Little Fish Haven, Idaho, is paradise for residents</h3>
+        <p id="author">By Kurt Friedemann Idaho State Journal</p>
+        <figure id="SodaImg">
+                <picture>
+                    <source media="(max-width: 32.5em)" srcset="./Images/gladysplacesmall.jpg">
+                    <source media="(max-width: 56em)" srcset="./Images/gladysplacemedium.jpg">
+                    <img src="./Images/gladysplacelarge.jpg" alt="Gladys Place">
+                </picture>
+            <figcaption>Glady's Place</figcaption>
+            </figure>
+        <p id="content">FISH HAVEN, Idaho — It's an undiscovered paradise. Most people who
+            drive by recognize the raw beauty of a place ringed by high desert mountains
+            and bordered by the shores of a vast natural lake.
+            <br>
+            <br>
+            In winter the hills outside this small paradise echo with the sharp whine of
+            snow machines and in the summer thousands of tourists ply the lake's bright
+            blue waters with water skis or fishing poles.
+            <br>
+            <br>
+            But they don't live there. It's different living in Fish Haven.
+            <br>
+            <br>
+            The little town sits just on the Idaho side of U.S. Highway 89
+            tucked in between Bear Lake's west side and the mountains.
+            <br>
+            <br>
+            It's not technically a city or a town, it's really nothing more than the
+            proverbial wide spot in the road. But people call it a town even though
+            there isn't a city council, just the Bear Lake County Commission that oversees development there.
+            <br>
+            <br>
+            Only 50 to 100 people call it home, depending on the weather.
+            <br>
+            <br>
+            Vic Tilt, co-owner of Gladys' Place, is one of the few year-around residents and said the
+            population drops quickly when things get cold.
+            <br>
+            <br>
+            The winter evacuation isn't much of a worry for Tilt, 60, because his store is the only one around.
+            The nearest other store is in Montpelier, about 45 minutes away.
+            <br>
+            <br>
+            Gladys' Place is also only a few minutes from the Utah border and has become quite a lottery spot.
+            The little store is the third- and fourth-biggest lottery ticket seller in Idaho, selling about 500,000 tickets a year.
+        </p>
+    </div>
+    <div class="contactUs">
+        <a id="mapLink" rel="noopener" href="https://tinyurl.com/y8gkw6sz" target="_blank"><img id="map" src="./Images/fishhavenmap.JPG" alt="Fish Haven Idaho Map"></a>
+        <div class="contact">
+        <h3>Weather News</h3>
+        <p><img id="mapIcon" src="./Images/map.png" alt="Map indicator">2703 US-89, Fish Haven, ID 83287</p>
+        <p><img id="phone" src="./Images/phone.png" alt="Phone">888-888-8888</p>
+        <p><img id="email" src="./Images/email.png" alt="Email">weathernews@wn.org</p>
+        <img class="social" src="Images/iconfinder_Colored_Facebook3_svg_5365678.png" alt="Facebook Logo">
+        <img class="social" src="Images/iconfinder_1_Twitter3_colored_svg_5296516.png" alt="Twitter Logo">
+        <img class="social" src="Images/iconfinder_1_Instagram_colored_svg_1_5296765.png" alt="Instagram Logo">
+        <img class="social" src="Images/iconfinder_1_Linkedin_unofficial_colored_svg_5296501.png" alt="LinkedIn Logo">
+        </div>
+    </div>
+</main>
+<footer>
+    <div>&copy; <span id="copyright"></span> Weather News | Attributions | Michael Kendall</div>
+    <span id="modified"></span>
+</footer>
+<script src="./js/source.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+<script>
+    WebFont.load({
+        google: {
+            families: ['Righteous']
+            }});
+    banner();
+    pageWeather('5585010');
+    pageForecast('5585010');
+</script>
+</html>
