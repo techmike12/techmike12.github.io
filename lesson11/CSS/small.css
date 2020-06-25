@@ -301,7 +301,7 @@ section > img {
 
 .townEvents {
     display: grid;
-    grid-column: 1fr;
+    grid-template-columns: 1fr;
     background-color: rgb(180, 176, 176);
     border: 1px solid black;
     width: 100%;
