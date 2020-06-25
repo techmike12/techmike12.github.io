@@ -21,7 +21,7 @@ header {
 
 p {
     margin: 0;
-    font-size: 1em;
+    font-size: 1.5em;
     color: #002D52;
     text-align: center;
 }
@@ -110,6 +110,7 @@ h2 {
     color: #B86602;
     text-align: center;
     font-family: Righteous;
+    font-size: 2em;
 }
 
 h4 {
@@ -242,6 +243,7 @@ img[data-src] {
 img {
     filter: blur(0em);
     transition: filter .5s;
+    max-width: 100%;
 }
 
 #welcome {
@@ -301,7 +303,7 @@ section > img {
 
 .townEvents {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-column: 1fr;
     background-color: rgb(180, 176, 176);
     border: 1px solid black;
     width: 100%;
@@ -345,7 +347,7 @@ section > img {
 
 .article h3 {
     text-align: center;
-    font-size: 1em;
+    font-size: 1.5em;
 }
 
 #content {
