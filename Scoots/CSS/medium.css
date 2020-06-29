@@ -1,5 +1,9 @@
 @media only screen and (min-width: 32.5em) {
-	.navigation {
+    nav {
+        margin-left: 20%;
+    }
+
+    .navigation {
 		display: flex;
 	}
 
@@ -13,5 +17,67 @@
 	}
 	.navigation li:first-child {
 		display: none;
+    }
+
+    /*Weather for home page*/
+    .fiveDay {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        justify-content: center;
+        margin-bottom: 5px;
+        width: 50%;
+        margin: auto;
+    }
+
+    #forecast-title {
+        display: block;
+        text-align: center;
+    }
+
+    #day1, #day2, #day3, #day4, #day5 {
+        border: 1px solid #002D52;
+        border-radius: 12px;
+        padding: 3px;
+        background-color: #59C1FF;
+        margin: 3px;
+        font-size: .8em;
+    }
+
+    #day1 {
+        grid-column: 1;
+    }
+
+    #day2 {
+        grid-column: 2;
+    }
+
+    #day3 {
+        grid-column: 3;
+    }
+
+    #day4 {
+        grid-column: 4;
+    }
+
+    #day5 {
+        grid-column: 5;
+    }
+
+    #forecast {
+        display: grid;
+        text-align: left;
+    }
+
+    #day1_weather, #day2_weather, #day3_weather, #day4_weather, #day5_weather,
+    #condition1, #condition2, #condition3, #condition4, #condition5, #date1,
+    #date2, #date3, #date4, #date5 {
+        color: #002D52;
+        font-family: Krona One, sans-serif;
+        font-weight: lighter;
+    }
+
+    .fiveDay div {
+        text-align: center;
+        font-size: 1.5em;
     }
 }
