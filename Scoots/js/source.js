@@ -50,11 +50,14 @@ fetch(requestURL)
             detail.setAttribute('class', 'rentalDetail')
             let name = document.createElement('h2');
             name.textContent = rent[i].name;
+            let person = document.createElement('p');
+            person.textContent = rent[i].person;
 
             //Add elements into section
             card.appendChild(image);
             card.appendChild(detail);
             detail.appendChild(name);
+            detail.appendChild(person);
             document.querySelector('div.rentals').appendChild(card);
     }
   });

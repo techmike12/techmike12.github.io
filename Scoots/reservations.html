@@ -55,13 +55,12 @@
             <label class="top">Rental Type:
                 <select name="rentalType">
                     <option value="" selected disabled>Select Rental...</option>
-                    <!--Fill in from JSON-->
-                    <option value=""></option>
-                    <option value=""></option>
-                    <option value=""></option>
-                    <option value=""></option>
-                    <option value=""></option>
-                    <option value=""></option>
+                    <option value="Honda Metropolitan">Honda Metropolitan (49cc)</option>
+                    <option value="Honda Dio">Honda Dio</option>
+                    <option value="Honda PCX150">Honda PCX150</option>
+                    <option value="Honda Pioneer ATV">Honda Pioneer ATV</option>
+                    <option value="Jeep Wrangler - 4 door with a/c">Jeep Wrangler - 4 door with a/c</option>
+                    <option value="Jeep Wrangler - 2 door">Jeep Wrangler - 2 door</option>
                 </select>
             <label class="top" for="rating">How Many Days? &nbsp;&nbsp;&nbsp;
                 <input type="range" id="rating" value="5" min="1" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
@@ -78,7 +77,7 @@
     </form>
 </main>
 <footer>
-    <div>&copy; <span id="copyright"></span> Scoots | <a href="">Attributions</a></div>
+    <div>&copy; <span id="copyright"></span> Scoots | <a href="rentals.html">Attributions</a></div>
     <span id="modified"></span>
 </footer>
 <script src="./js/source.js"></script>
@@ -88,6 +87,5 @@
         google: {
             families: ['Righteous']
             }});
-        //loadrentPrices();
 </script>
 </html>
