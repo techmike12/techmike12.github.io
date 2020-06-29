@@ -56,14 +56,22 @@ nav ul li a:hover {
 h2 {
     color: #B86602;
     text-align: center;
-    font-family: Righteous;
+    font-family: Krona One, sans-serif;
     font-size: 2em;
 }
 
 h1 {
     font-size: 2em;
     color: #B86602;
-    font-family: Righteous;
+    font-family: Krona One, sans-serif;
+}
+
+h3 {
+    font-size: 1.5em;
+    margin: 5px;
+    color: #002D52;
+    text-decoration: underline;
+    font-family: Krona One, sans-serif;
 }
 
 p {
@@ -94,7 +102,7 @@ form fieldset {
     border: 2px solid #B86602;
     border-radius: 12px;
     padding: 2em 2%;
-    font-family: Righteous;
+    font-family: Krona One, sans-serif;
 }
 
 form label.top, form div {
@@ -174,6 +182,7 @@ footer {
     justify-content: center;
     flex-direction: column;
     border-radius: 12px;
+    font-size: 1em;
 }
 
 /* Color Theme Swatches in Hex */
