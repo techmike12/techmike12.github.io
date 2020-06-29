@@ -2,6 +2,7 @@
 nav {
     background-color: #B86602;
     text-align: center;
+    margin-left: 20%;
 }
 
 .navigation {
@@ -30,17 +31,17 @@ nav {
     padding: .8rem 2%;
 	text-align: center;
 	text-decoration: none;
-	color: white;
+	color: black;
     font-weight: 700;
 }
 
 nav ul li a.active {
-    color: #002D52;
+    color: #B86602;
     background-color: #FFB200;
 }
 
 nav ul li a:hover {
-    color: #196FFF;
+    color: #FFB200;
 }
 
 .responsive li {
