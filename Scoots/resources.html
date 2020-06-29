@@ -1,1 +1,48 @@
-https://openweathermap.org/
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Michael Kendall">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name= "description" content="Home">
+    <link rel="stylesheet" href="CSS/normalize.css">
+    <link rel="stylesheet" href="CSS/small.css">
+    <link rel="stylesheet" href="CSS/medium.css">
+    <link rel="stylesheet" href="CSS/large.css">
+    <link rel="icon" href="./Images/">
+    <title>Scoots | Resources</title>
+</head>
+<header>
+    <img id="logo" src="./Images/" alt="Scooter">
+    <div id="titles">
+    <h1 id="title">Scoots</h1>
+    <p id="subtitle">"Touring with freedom"</p>
+    </div>
+</header>
+<nav>
+	<ul class="navigation">
+        <li><a id="ham" href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+		<li><a href="index.html">Home</a></li>
+		<li><a href="./rentals.html">Rentals</a></li>
+		<li><a href="./reservations.html">Reservations</a></li>
+        <li><a href="./tours.html">Tours</a></li>
+        <li><a href="./contact.html">Contact</a></li>
+	</ul>
+</nav>
+<main>
+    <h2>Resources</h2>
+    <p>Weather Source: <a href="https://openweathermap.org">OpenWeather</a>/</p>
+</main>
+<footer>
+    <div>&copy; <span id="copyright"></span> Scoots | <a href="resources.html">Resources</a></div>
+    <span id="modified"></span>
+</footer>
+<script src="./js/source.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+<script>
+        WebFont.load({
+        google: {
+            families: ['Righteous']
+            }});
+</script>
+</html>
