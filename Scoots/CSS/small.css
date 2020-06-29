@@ -52,6 +52,20 @@ nav ul li a:hover {
     display: none;
 }
 
+/*Headings and Paragraphs*/
+h2 {
+    color: #B86602;
+    text-align: center;
+    font-family: Righteous;
+    font-size: 1.5em;
+}
+
+h1 {
+    font-size: 2em;
+    color: #B86602;
+    font-family: Righteous;
+}
+
 /*Form for Contact page*/
 form {
     max-width: 900px;
