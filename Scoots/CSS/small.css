@@ -66,6 +66,13 @@ h1 {
     font-family: Righteous;
 }
 
+p {
+    margin: 0;
+    font-size: 1.5em;
+    color: #002D52;
+    text-align: center;
+}
+
 /*Form for Contact page*/
 form {
     max-width: 900px;
