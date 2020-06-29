@@ -1,0 +1,30 @@
+{
+  "rent": [
+    {
+      "name": "Honda Metropolitan (49cc)",
+      "person": "1",
+      "picture": "franklin.jpg",
+      "Reservprices": [
+        "Half Day (3 hrs): $20",
+        "Full Day: $30"
+      ],
+      "Walkprices": [
+        "Half Day (3 hrs): $25",
+        "Full Day: $35"
+      ]
+    },
+    {
+      "name": "",
+      "person": "",
+      "picture": "",
+      "Reservprices": [
+        "Half Day: $",
+        "Full Day: $"
+      ],
+      "Walkprices": [
+        "Half Day: $",
+        "Full Day: $"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+/*Navigation*/
+nav {
+    background-color: #B86602;
+    text-align: center;
+}
+
+.navigation {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+    overflow: hidden;
+}
+
+.navigation li:first-child {
+    display: block;
+    font-weight: bold;
+	text-align: center;
+	padding: 0.75rem;
+	text-decoration: none;
+    font-size: 0.95rem;
+}
+
+.navigation li {
+    display: none;
+    border-right: 1px solid white;
+}
+
+.navigation a {
+	display: block;
+    padding: .8rem 2%;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+    font-weight: 700;
+}
+
+nav ul li a.active {
+    color: #002D52;
+    background-color: #FFB200;
+}
+
+nav ul li a:hover {
+    color: #196FFF;
+}
+
+.responsive li {
+    display: block;
+}
+
+.responsiveClose li {
+    display: none;
+}
+
+/*Form for Contact page*/
+form {
+    max-width: 900px;
+    margin: auto;
+}
+
+form fieldset {
+    margin: 0 2em 2em 2em;
+    border: 2px solid #B86602;
+    border-radius: 12px;
+    padding: 2em 2%;
+    font-family: Righteous;
+}
+
+form label.top, form div {
+    display: block;
+    padding-top: 1.5em;
+    color: #002D52;
+    font-size: .8em;
+    font-weight: bold;
+    top: 7px;
+    left: 4px;
+}
+
+#comments {
+    height: 80px;
+    width: 200px;
+}
+
+form label.top input, form label.top select {
+    display: block;
+    font-size: 1rem;
+    border: solid 1px #999;
+    border-radius: 5px;
+    padding: .75rem;
+    color: #555;
+    width: 100%;
+    max-width: 10rem;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+form input.submitBtn {
+    display: block;
+    border: none;
+    background-color: #B86602;
+    color: white;
+    border-radius: 12px;
+    padding: .75rem 1.5rem;
+    margin-bottom: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 20em;
+}
+
+form label.top input:required {
+    border-left: red solid 6px;
+}
+
+form label.top input:required:valid {
+    border-left: green solid 6px;
+}
+
+/* Color Theme Swatches in Hex */
+.Weather-Site-1-hex { color: #002D52; }
+.Weather-Site-2-hex { color: #59C1FF; }
+.Weather-Site-3-hex { color: #196FFF; }
+.Weather-Site-4-hex { color: #B86602; }
+.Weather-Site-5-hex { color: #FFB200; }

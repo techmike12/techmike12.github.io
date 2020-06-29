@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Michael Kendall">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name= "description" content="Home">
+    <link rel="stylesheet" href="CSS/normalize.css">
+    <link rel="stylesheet" href="CSS/small.css">
+    <link rel="stylesheet" href="CSS/medium.css">
+    <link rel="stylesheet" href="CSS/large.css">
+    <link rel="icon" href="./Images/">
+    <title>Scoots | Home</title>
+</head>
+<header>
+    <img id="logo" src="./Images/" alt="Scooter">
+    <div id="titles">
+    <h1 id="title">Scoots</h1>
+    <p id="subtitle">"Touring with freedom"</p>
+    </div>
+</header>
+<nav>
+	<ul class="navigation">
+        <li><a id="ham" href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+		<li><a class="active" href="index.html">Home</a></li>
+		<li><a href="./rentals.html">Rentals</a></li>
+		<li><a href="./reservations.html">Reservations</a></li>
+        <li><a href="./tours.html">Tours</a></li>
+        <li><a href="./contact.html">Contact</a></li>
+	</ul>
+</nav>
+<main>
+    <h2>Home</h2>
+    <p id="welcome">Welcome to Scoots</p>
+    <section id="summary">
+        <h3>Weather:</h3>
+        <span id="current"></span>
+        <span id="high"></span>
+        <span id="humidity"></span>
+    </section>
+    <h3 id="forecast-title">5 Day Forecast</h3>
+    <section class="fiveDay">
+        <div id="day1">
+            <h3 id="date1"></h3>
+            <div><img src="#" alt="" id='weather_icon1'></div>
+            <div id="condition1"></div>
+            <div id="day1_weather"></div>
+        </div>
+        <div id="day2">
+            <h3 id="date2"></h3>
+            <div><img src="#" alt="" id='weather_icon2'></div>
+            <div id="condition2"></div>
+            <div id="day2_weather"></div>
+        </div>
+        <div id="day3">
+            <h3 id="date3"></h3>
+            <div><img src="#" alt="" id='weather_icon3'></div>
+            <div id="condition3"></div>
+            <div id="day3_weather"></div>
+        </div>
+        <div id="day4">
+            <h3 id="date4"></h3>
+            <div><img src="#" alt="" id='weather_icon4'></div>
+            <div id="condition4"></div>
+            <div id="day4_weather"></div>
+        </div>
+        <div id="day5">
+            <h3 id="date5"></h3>
+            <div><img src="#" alt="" id='weather_icon5'></div>
+            <div id="condition5"></div>
+            <div id="day5_weather"></div>
+        </div>
+    </section>
+    <div class="contactUs">
+        <div class="contact">
+        <h3>Scoots</h3>
+        <p><img id="mapIcon" src="./Images/map.png" alt="Map indicator">51 W Oneida St Preston, ID 83263</p>
+        <p><img id="phone" src="./Images/phone.png" alt="Phone">888-888-8888</p>
+        <p><img id="email" src="./Images/email.png" alt="Email">info@scoots.org</p>
+        <img class="social" src="Images/iconfinder_Colored_Facebook3_svg_5365678.png" alt="Facebook Logo">
+        <img class="social" src="Images/iconfinder_1_Twitter3_colored_svg_5296516.png" alt="Twitter Logo">
+        <img class="social" src="Images/iconfinder_1_Instagram_colored_svg_1_5296765.png" alt="Instagram Logo">
+        </div>
+    </div>
+</main>
+<footer>
+    <div>&copy; <span id="copyright"></span> Scoots | <a href="">Attributions</a></div>
+    <span id="modified"></span>
+</footer>
+<script src="./js/source.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+<script>
+        WebFont.load({
+        google: {
+            families: ['Righteous']
+            }});
+        pageWeather('3521342');
+        pageForecast('3521342');
+</script>
+</html>
