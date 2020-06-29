@@ -146,6 +146,22 @@ form label.top input:required:valid {
     border-left: green solid 6px;
 }
 
+/*Contact on home page*/
+.social {
+    grid-row: 1;
+    max-width: 50px;
+    max-height: 50px;
+    padding: 5px;
+}
+
+.contactUs {
+    text-align: center;
+}
+
+.contact {
+    grid-row: 1;
+}
+
 /*Footer*/
 footer {
     background-color: #B86602;
