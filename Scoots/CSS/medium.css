@@ -80,4 +80,9 @@
         text-align: center;
         font-size: 1.5em;
     }
+
+    /*Forms*/
+    form label.top input, form label.top select {
+        max-width: 20rem;
+    }
 }

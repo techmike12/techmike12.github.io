@@ -200,7 +200,7 @@ form label.top input, form label.top select {
     padding: .75rem;
     color: #555;
     width: 100%;
-    max-width: 10rem;
+    max-width: 15rem;
     background-color: rgba(0, 0, 0, 0.1);
 }
 
