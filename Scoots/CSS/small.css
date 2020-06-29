@@ -23,7 +23,7 @@ nav {
 
 .navigation li {
     display: none;
-    border-right: 1px solid white;
+    border-right: 2px solid white;
 }
 
 .navigation a {
@@ -113,6 +113,20 @@ form label.top input:required {
 
 form label.top input:required:valid {
     border-left: green solid 6px;
+}
+
+/*Footer*/
+footer {
+    background-color: #B86602;
+    height: 50px;
+    width: 100%;
+    color: white;
+    font-size: .8em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 12px;
 }
 
 /* Color Theme Swatches in Hex */
