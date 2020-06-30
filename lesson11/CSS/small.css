@@ -467,6 +467,16 @@ section > img {
     text-align: center;
 }
 
+#weatherStory {
+    max-width: 600px;
+    margin: .5rem auto;
+    border: 2px solid #002D52;
+    text-align: center;
+    padding: 2%;
+    font-size: .8em;
+    background-color: #59C1FF;
+}
+
 footer {
     background-color: #002D52;
     height: 50px;
