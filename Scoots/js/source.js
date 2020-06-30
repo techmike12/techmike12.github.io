@@ -1,18 +1,3 @@
-/*Display date in the footer*/
-document.getElementById("modified").innerHTML = "Last updated: " + document.lastModified;
-
-/*Hamburger menu for small display*/
-function toggleMenu ()  {
-    if (document.getElementsByClassName("navigation")[0].classList == "navigation"){
-        document.getElementsByClassName("navigation")[0].classList.toggle("responsive");
-        document.getElementById("ham").innerHTML= "&#x2715";
-    } else {
-        document.getElementsByClassName("navigation")[0].classList.toggle("responsive");
-        document.getElementById("ham").innerHTML= "&#9776 Menu";
-    }
-
-}
-
 /*Getting data for rentals*/
 function loadrentdata() {
 const requestURL = 'https://raw.githubusercontent.com/techmike12/techmike12.github.io/master/Scoots/data/rentdata.json';
@@ -51,6 +36,21 @@ fetch(requestURL)
             document.querySelector('div.rentals').appendChild(card);
     }
   });
+}
+
+/*Display date in the footer*/
+document.getElementById("modified").innerHTML = "Last updated: " + document.lastModified;
+
+/*Hamburger menu for small display*/
+function toggleMenu ()  {
+    if (document.getElementsByClassName("navigation")[0].classList == "navigation"){
+        document.getElementsByClassName("navigation")[0].classList.toggle("responsive");
+        document.getElementById("ham").innerHTML= "&#x2715";
+    } else {
+        document.getElementsByClassName("navigation")[0].classList.toggle("responsive");
+        document.getElementById("ham").innerHTML= "&#9776 Menu";
+    }
+
 }
 
 /*Rating*/
