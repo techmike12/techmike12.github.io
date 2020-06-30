@@ -4,79 +4,55 @@
       "name": "Honda Metropolitan (49cc)",
       "person": "1",
       "picture": "hondaMetro.jpg",
-      "Reservprices": [
-        "Half Day (3 hrs): $20",
-        "Full Day: $30"
-      ],
-      "Walkprices": [
-        "Half Day (3 hrs): $25",
-        "Full Day: $35"
-      ]
+      "reservprices_full": "Full Day: $30",
+      "reservprices_half":"Half Day: $30",
+      "walkprices_full": "Full Day: $20",
+      "walkprices_half": "Half Day: $25"
     },
     {
       "name": "Honda Dio",
       "person": "2",
       "picture": "hondaDio.jpg",
-      "Reservprices": [
-        "Half Day (3 hrs): $30",
-        "Full Day: $40"
-      ],
-      "Walkprices": [
-        "Half Day: $35",
-        "Full Day: $45"
-      ]
+      "reservprices_full": "Full Day: $40",
+      "reservprices_half":"Half Day: $30",
+      "walkprices_full": "Full Day: $45",
+      "walkprices_half": "Half Day: $35"
     },
     {
       "name": "Honda PCX150",
       "person": "2",
       "picture": "hondaPCX.jpg",
-      "Reservprices": [
-        "Half Day (3 hrs): $40",
-        "Full Day: $50"
-      ],
-      "Walkprices": [
-        "Half Day: $45",
-        "Full Day: $55"
-      ]
+      "reservprices_full": "Full Day: $50",
+      "reservprices_half":"Half Day: $40",
+      "walkprices_full": "Full Day: $55",
+      "walkprices_half": "Half Day: $45"
     },
     {
       "name": "Honda Pioneer ATV",
       "person": "4",
       "picture": "hondaPioneer.jpg",
-      "Reservprices": [
-        "Half Day (3 hrs): $50",
-        "Full Day: $70"
-      ],
-      "Walkprices": [
-        "Half Day: $60",
-        "Full Day: $80"
-      ]
+      "reservprices_full": "Full Day: $70",
+      "reservprices_half":"Half Day: $50",
+      "walkprices_full": "Full Day: $80",
+      "walkprices_half": "Half Day: $60"
     },
     {
       "name": "Jeep Wrangler - 4 door with a/c",
       "person": "5",
       "picture": "jeepAC.jpg",
-      "Reservprices": [
-        "Half Day (3 hrs): $70",
-        "Full Day: $100"
-      ],
-      "Walkprices": [
-        "Half Day: $85",
-        "Full Day: $125"
-      ]
+      "reservprices_full": "Full Day: $100",
+      "reservprices_half":"Half Day: $70",
+      "walkprices_full": "Full Day: $125",
+      "walkprices_half": "Half Day: $85"
     },
     {
       "name": "Jeep Wrangler - 2 door",
       "person": "4",
       "picture": "jeep2door.jpg",
-      "Reservprices": [
-        "Half Day (3 hrs): $60",
-        "Full Day: $85"
-      ],
-      "Walkprices": [
-        "Half Day: $70",
-        "Full Day: $90"
-      ]
+      "reservprices_full": "Half Day: $60",
+      "reservprices_half":"Half Day: $70",
+      "walkprices_full": "Full Day: $90",
+      "walkprices_half": "Full Day: $90"
     }
   ]
 }

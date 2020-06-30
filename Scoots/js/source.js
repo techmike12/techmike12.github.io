@@ -1,5 +1,5 @@
-/*Getting data for rentals*/
-function loadrentdata() {
+/*Getting data for rentals/table?*/
+/*function loadrentdata() {
 const requestURL = 'https://raw.githubusercontent.com/techmike12/techmike12.github.io/master/Scoots/data/rentdata.json';
 
 fetch(requestURL)
@@ -36,7 +36,7 @@ fetch(requestURL)
             document.querySelector('div.rentals').appendChild(card);
     }
   });
-}
+}*/
 
 /*Display date in the footer*/
 document.getElementById("modified").innerHTML = "Last updated: " + document.lastModified;
