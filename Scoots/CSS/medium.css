@@ -1,9 +1,5 @@
 @media only screen and (min-width: 32.5em) {
-    nav {
-        margin-left: 20%;
-    }
-
-    .navigation {
+   .navigation {
 		display: flex;
 	}
 
