@@ -4,6 +4,15 @@
         font-size: 2.5em;
     }
 
+    header {
+        justify-content: flex-start;
+    }
+
+    #logo {
+        margin-left: 25px;
+        margin-top: 25px;
+    }
+
     .navigation {
 		display: flex;
 	}
