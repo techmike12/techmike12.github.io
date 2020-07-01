@@ -308,6 +308,30 @@ form label.top input:required:valid {
     border-left: green solid 6px;
 }
 
+/*Reserve*/
+#agree {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    text-align: center;
+    border: 2px solid #002D52;
+    background-color: #002D52;
+    border-radius: 12px;
+    padding: 2%;
+    max-width: 500px;
+}
+
+#agree h3 {
+    font-size: 1em;
+    color: #59C1FF;
+}
+
+#agree li {
+    font-size: 1em;
+    color: white;
+    text-align: left;
+}
+
 /*Footer*/
 footer {
     background-color: #B86602;
