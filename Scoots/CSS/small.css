@@ -186,11 +186,8 @@ header {
 
 /*Table summary for home page*/
 #rentals {
-    width: 50%;
     margin: auto;
     text-align:center;
-    /*border: 5px solid #196FFF;
-    border-radius: 12px;*/
 }
 
 #rentals table {
@@ -198,6 +195,7 @@ header {
     margin-right:auto;
     margin-bottom: 10px;
     margin-top: 5px;
+    width: 500px;
 }
 
 #rentals p{
