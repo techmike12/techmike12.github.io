@@ -217,6 +217,10 @@ header {
     padding: 5px;
 }
 
+#rentals td {
+    text-align: left;
+}
+
 #rentals tr:nth-child(even) {
     background-color: #eee;
 }
