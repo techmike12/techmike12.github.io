@@ -1,4 +1,5 @@
 @media only screen and (min-width: 32.5em) {
+
     #title {
         margin-left: 45px;
         font-size: 2.5em;
@@ -75,14 +76,14 @@
 
     #forecast {
         display: grid;
-        text-align: left;
+        text-align: center;
     }
 
     #day1_weather, #day2_weather, #day3_weather, #day4_weather, #day5_weather,
     #condition1, #condition2, #condition3, #condition4, #condition5, #date1,
     #date2, #date3, #date4, #date5 {
         color: #002D52;
-        font-family: Krona One, sans-serif;
+        font-family: "Krona One", sans-serif;
         font-weight: lighter;
     }
 
