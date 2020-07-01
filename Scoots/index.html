@@ -33,18 +33,56 @@
 <main>
     <h2>Home</h2>
     <p id="welcome">Welcome to Scoots!</p>
-    <br>
-    <!--Images of Island and rental facilities-->
-    <!--Summary about rentals-->
-    <form id="button" action="reservations.html">
-        <input type="submit" value="Reserve Today!">
-    </form>
-    <br>
-    <h3 id="summaryTitle">Weather:</h3>
-    <section id="summary">
-        <span id="current"></span>
-        <span id="high"></span>
-        <span id="humidity"></span>
+    <div class="hero">
+        <picture id="heropic">
+            <source media="(max-width: 32.5em)" srcset="./Images/small.jpg">
+            <source media="(max-width: 56em)" srcset="./Images/medium.jpg">
+            <img src="./Images/large.jpg" alt="Scooter Rentals">
+        </picture>
+        <section id="summary">
+            <h3 id="summaryTitle">Current Weather:</h3>
+            <span id="current"></span>
+            <span id="high"></span>
+            <span id="humidity"></span>
+        </section>
+    </div>
+    <section id="rentals">
+        <h3>Rentals Available:</h3>
+        <p>We have all kinds of rentals available to help you tour the island.</p>
+        <a href="rentals.html">More info on rentals here</a>
+        <table>
+            <tr>
+                <th>Type</th>
+                <th>Seating</th>
+            </tr>
+            <tr>
+                <td>Honda Metro Scooter</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>Honda Dio Scooter</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>Honda PCX150 Scooter</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>Honda Pioneer ATV</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>Jeep Wrangler - 4 door with a/c</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>Jeep Wrangler - 2 door</td>
+                <td>4</td>
+            </tr>
+        </table>
+        <form id="button" action="reservations.html">
+            <input type="submit" value="Reserve Today!">
+        </form>
     </section>
     <br>
     <h3 id="forecast-title">5 Day Forecast</h3>
