@@ -178,6 +178,7 @@ header {
 #heropic img {
     width: 80%;
     margin-left: 10%;
+    border-radius: 12px;
 }
 
 /*Table summary for home page*/
