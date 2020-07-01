@@ -107,31 +107,32 @@ nav ul li a:hover {
 }
 
 h2 {
-    color: #B86602;
+    color: #002D52;
     text-align: center;
-    font-family: Krona One, sans-serif;
+    font-family: "Krona One", sans-serif;
     font-size: 2em;
 }
 
 h1 {
     font-size: 2em;
-    color: #B86602;
-    font-family: Krona One, sans-serif;
+    color: #002D52;
+    font-family: "Krona One", sans-serif;
 }
 
 h3 {
     font-size: 1.5em;
     margin: 5px;
-    color: #002D52;
+    color: #FFB200;
     text-decoration: underline;
-    font-family: Krona One, sans-serif;
+    font-family: "Krona One", sans-serif;
 }
 
 p {
     margin: 0;
     font-size: 1.5em;
-    color: #002D52;
+    color: black;
     text-align: center;
+    font-family: "PT Serif", serif;
 }
 
 #title {
@@ -144,11 +145,11 @@ p {
     font-style: italic;
     font-size: 1.5em;
     margin-left: 25px;
-    color: white;
+    color: black;
 }
 
 #welcome {
-    font-family: Krona One, sans-serif;
+    font-family: "Krona One", sans-serif;
     font-style: italic;
     font-size: 1em;
     margin-top: -25px;
@@ -158,7 +159,9 @@ header {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background-color: #002D52;
+    background-image: url("../Images/beach2.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 /*Weather Summary*/
@@ -193,7 +196,7 @@ form fieldset {
     border: 2px solid #B86602;
     border-radius: 12px;
     padding: 2em 2%;
-    font-family: Krona One, sans-serif;
+    font-family: "Krona One", sans-serif;
 }
 
 form label.top, form div {
