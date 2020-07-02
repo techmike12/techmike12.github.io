@@ -43,7 +43,7 @@ nav {
 
 .navigation li {
     display: none;
-    border-right: 2px solid white;
+    border: 2px solid black;
 }
 
 .navigation a {
