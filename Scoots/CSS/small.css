@@ -421,6 +421,13 @@ figcaption {
     text-align: center;
 }
 
+/*Rental Page*/
+#rentals {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+
 /* Color Theme Swatches in Hex */
 .Weather-Site-1-hex { color: #002D52; }
 .Weather-Site-2-hex { color: #59C1FF; }
