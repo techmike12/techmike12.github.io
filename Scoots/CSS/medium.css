@@ -121,4 +121,17 @@
     form label.top input, form label.top select {
         max-width: 20rem;
     }
+
+    /*Contact*/
+    #ferry, #term {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #term p {
+        text-align: left;
+    }
+
+    #ferry p {
+        text-align: left;
+    }
 }

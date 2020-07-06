@@ -252,7 +252,7 @@ header {
     font-size: 1em;
 }
 
-/*Form for Contact page*/
+/*Contact page*/
 form {
     max-width: 900px;
     margin: auto;
@@ -311,6 +311,34 @@ form label.top input:required {
 
 form label.top input:required:valid {
     border-left: green solid 6px;
+}
+
+#ferry, #term {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+#term p {
+    text-align: center;
+    font-size: 1em;
+    padding: 2%;
+}
+
+#ferry p {
+    text-align: center;
+    font-size: 1em;
+    padding: 2%;
+}
+
+h4 {
+    font-size: 1.5em;
+    color: #002D52;
+    text-align: center;
+}
+
+.map iframe{
+    margin-bottom: 10px;
+    max-width: 100%;
 }
 
 /*Reserve*/
