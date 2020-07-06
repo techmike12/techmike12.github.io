@@ -148,4 +148,10 @@
     #rental {
         grid-template-columns: 1fr 1fr;
     }
+
+    /*Contact page*/
+    .map iframe{
+        border-top-right-radius: 12px;
+        border-bottom-right-radius: 12px;
+    }
 }
