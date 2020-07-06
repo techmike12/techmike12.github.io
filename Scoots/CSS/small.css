@@ -386,6 +386,41 @@ footer {
     font-size: 1em;
 }
 
+/*Image scroll*/
+img[data-src] {
+    filter: blur(0.2em);
+    transition: filter .5s;
+}
+
+img {
+    filter: blur(0em);
+    transition: filter .5s;
+    max-width: 100%;
+}
+
+/*Tours*/
+.tours {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 5px;
+}
+
+figure {
+    border: 2px solid #59C1FF;
+}
+
+figcaption {
+    padding: 5px;
+    text-align: center;
+    font-family: "PT Serif", serif;
+    color: #002D52;
+    font-weight: bold;
+}
+
+.tour-heading {
+    text-align: center;
+}
+
 /* Color Theme Swatches in Hex */
 .Weather-Site-1-hex { color: #002D52; }
 .Weather-Site-2-hex { color: #59C1FF; }

@@ -134,4 +134,13 @@
     #ferry p {
         text-align: left;
     }
+
+    /*Tours*/
+    .tours{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    figure:hover {
+        box-shadow: 1px 1px 8px 5px #59C1FF;
+    }
 }
