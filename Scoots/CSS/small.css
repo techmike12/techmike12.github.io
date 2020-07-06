@@ -100,7 +100,7 @@ nav ul li a:hover {
     padding: 2%;
 }
 
-#mapIcon, #phone, #email {
+.mapIcon, .phone, .email {
     max-height: 25px;
     padding-right: 2%;
 }
