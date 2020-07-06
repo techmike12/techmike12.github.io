@@ -40,19 +40,19 @@
       "name": "Jeep Wrangler - 4 door with a/c",
       "person": "5",
       "picture": "jeepAC.jpg",
-      "reservprices_full": "Full Day: $100",
-      "reservprices_half":"Half Day: $70",
-      "walkprices_full": "Full Day: $125",
-      "walkprices_half": "Half Day: $85"
+      "reservprices_full": "Reserve Full Day: $100",
+      "reservprices_half":"Reserve Half Day: $70",
+      "walkprices_full": "Walk in Full Day: $125",
+      "walkprices_half": "Walk in Half Day: $85"
     },
     {
       "name": "Jeep Wrangler - 2 door",
       "person": "4",
       "picture": "jeep2door.jpg",
-      "reservprices_full": "Half Day: $60",
-      "reservprices_half":"Half Day: $70",
-      "walkprices_full": "Full Day: $90",
-      "walkprices_half": "Full Day: $90"
+      "reservprices_full": "Reserve Full Day: $85",
+      "reservprices_half":"Reserve Half Day: $60",
+      "walkprices_full": "Walk in Full Day: $90",
+      "walkprices_half": "Walk in Half Day: $70"
     }
   ]
 }
