@@ -3,7 +3,7 @@
         grid-template-columns: repeat(3, 1fr);
     }
 
-    #rentals {
+    #rental {
         grid-template-columns: 1fr 1fr 1fr;
     }
 }

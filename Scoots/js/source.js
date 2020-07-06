@@ -58,7 +58,7 @@ fetch(requestURL)
             detail.appendChild(reserveHalf);
             detail.appendChild(walkFull);
             detail.appendChild(walkHalf);
-            document.getElementById('rentals').appendChild(card);
+            document.getElementById('rental').appendChild(card);
     }
   });
 }

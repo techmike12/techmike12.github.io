@@ -145,7 +145,7 @@
     }
 
     /*Rental page*/
-    #rentals {
+    #rental {
         grid-template-columns: 1fr 1fr;
     }
 }
