@@ -18,27 +18,40 @@ fetch(requestURL)
     //Create elements and content in HTML
     for (let i = 0; i < rent.length; i++ ) {
             //Create section/Image
-            let card = document.createElement('section');
-            card.setAttribute('id', 'rentalSection')
+            let card = document.createElement('div');
+            card.setAttribute('id', 'rentalDiv')
             let image = document.createElement('img');
-            image.setAttribute('src', 'Images/' + rent[i].picture);
+            image.setAttribute('src', './Images/' + rent[i].picture);
             image.setAttribute('alt', rent[i].name);
             image.setAttribute('class', 'rentalImage');
 
             //Create div for rental image
-            let detail = document.createElement('div');
+            let detail = document.createElement('section');
             detail.setAttribute('class', 'rentalDetail')
             let name = document.createElement('h2');
             name.textContent = rent[i].name;
-            let person = document.createElement('p');
-            person.textContent = rent[i].person;
+            let persons = document.createElement('p');
+            persons.textContent = rent[i].person;
+            let reserveFull = document.createElement('p');
+            reserveFull.textContent = rent[i].reservprices_full;
+            let reserveHalf = document.createElement('p');
+            reserveHalf.textContent = rent[i].reservprices_half;
+            let walkFull = document.createElement('p');
+            walkFull.textContent = rent[i].walkprices_full;
+            let walkHalf = document.createElement('p');
+            walkHalf.textContent = rent[i].walkprices_half;
+
 
             //Add elements into section
             card.appendChild(image);
             card.appendChild(detail);
             detail.appendChild(name);
-            detail.appendChild(person);
-            document.querySelector('div.rentals').appendChild(card);
+            detail.appendChild(persons);
+            detail.appendChild(reserveFull);
+            detail.appendChild(reserveHalf);
+            detail.appendChild(walkFull);
+            detail.appendChild(walkHalf);
+            document.getElementById('rentals').appendChild(card);
     }
   });
 }
