@@ -433,15 +433,17 @@ figcaption {
 }
 
 .rentalDetail {
-    padding: 5%;
-    background-color: #002D52;
+    padding: 2%;
 }
 .rentalDetail p {
-    color: white;
+    color: #002D52;
 }
 
 .rentalDetail h4 {
     color: #59C1FF;
+    background-color: #002D52;
+    padding: 2%;
+    border-radius: 12px;
 }
 
 /* Color Theme Swatches in Hex */
