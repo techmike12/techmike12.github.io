@@ -38,7 +38,7 @@ fetch(requestURL)
             let name = document.createElement('h4');
             name.textContent = rent[i].name;
             let persons = document.createElement('p');
-            persons.textContent = rent[i].person;
+            persons.textContent = "Max person(s): " + rent[i].person;
             let reserveFull = document.createElement('p');
             reserveFull.textContent = rent[i].reservprices_full;
             let reserveHalf = document.createElement('p');
