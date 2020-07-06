@@ -446,9 +446,6 @@ figcaption {
     border-radius: 12px;
 }
 
-/* Color Theme Swatches in Hex */
-.Weather-Site-1-hex { color: #002D52; }
-.Weather-Site-2-hex { color: #59C1FF; }
-.Weather-Site-3-hex { color: #196FFF; }
-.Weather-Site-4-hex { color: #B86602; }
-.Weather-Site-5-hex { color: #FFB200; }
+.rentalImage {
+    width: 100%;
+}
