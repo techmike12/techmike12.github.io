@@ -5,7 +5,7 @@
 /*Load Images w/ prices*/
 
 function loadrentdata() {
-const requestURL = 'https://raw.githubusercontent.com/techmike12/techmike12.github.io/master/Scoots/data/rentdata.json';
+const requestURL = 'https://github.com/techmike12/techmike12.github.io/blob/master/Scoots/data/rentdata.json';
 
 fetch(requestURL)
   .then(function (response) {
