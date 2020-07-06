@@ -51,9 +51,9 @@
 
         <fieldset>
             <legend>Rental Information</legend>
-            <label class="top">Rental Date: <input type="date" name="date" ></label>
+            <label class="top">Rental Date: <input type="date" name="date" required></label>
             <label class="top">Rental Type:
-                <select name="rentalType">
+                <select name="rentalType" required>
                     <option value="" selected disabled>Select Rental...</option>
                     <option value="Honda Metropolitan">Honda Metropolitan (49cc)</option>
                     <option value="Honda Dio">Honda Dio</option>
@@ -63,7 +63,7 @@
                     <option value="Jeep Wrangler - 2 door">Jeep Wrangler - 2 door</option>
                 </select>
             <label class="top" for="period">How Many Days? &nbsp;&nbsp;&nbsp;
-                <input type="range" id="period" value="5" min="1" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+                <input type="range" id="period" value="5" min="1" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)" required>
                         <span id="periodValue">5</span>
             </label>
         </fieldset>
