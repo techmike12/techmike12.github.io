@@ -316,6 +316,11 @@ form label.top input:required:valid {
 #ferry, #term {
     display: grid;
     grid-template-columns: 1fr;
+    max-width: 700px;
+    margin: auto;
+    border: 2px solid #002D52;
+    border-radius: 12px;
+    margin-bottom: 10px;
 }
 
 #term p {
@@ -337,8 +342,9 @@ h4 {
 }
 
 .map iframe{
-    margin-bottom: 10px;
     max-width: 100%;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
 }
 
 /*Reserve*/
