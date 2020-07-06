@@ -17,9 +17,16 @@ fetch(requestURL)
 
     //Create elements and content in HTML
     for (let i = 0; i < rent.length; i++ ) {
+            //Prefix for section ID
+            /*let prefix = rent[i].name == "Honda Metropolitan (49cc)" ? "metro" :
+            rent[i].name == "Honda Dio" ? "dio" :
+            rent[i].name == "Honda PCX150" ? "pcx" :
+            rent[i].name == "Honda Pioneer ATV" ? "atv" :
+            rent[i].name == "Jeep Wrangler - 4 door with a/c" ? "4d" :
+            rent[i].name == "Jeep Wrangler - 2 door" ? "2d" : "";*/
             //Create section/Image
             let card = document.createElement('div');
-            card.setAttribute('id', 'rentalDiv')
+            card.setAttribute('class', 'rentalDiv')
             let image = document.createElement('img');
             image.setAttribute('src', './Images/' + rent[i].picture);
             image.setAttribute('alt', rent[i].name);
@@ -28,7 +35,7 @@ fetch(requestURL)
             //Create div for rental image
             let detail = document.createElement('section');
             detail.setAttribute('class', 'rentalDetail')
-            let name = document.createElement('h2');
+            let name = document.createElement('h4');
             name.textContent = rent[i].name;
             let persons = document.createElement('p');
             persons.textContent = rent[i].person;

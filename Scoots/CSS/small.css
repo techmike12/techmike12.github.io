@@ -424,8 +424,24 @@ figcaption {
 /*Rental Page*/
 #rentals {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 10px;
+}
+
+.rentalDiv {
+    border: 2px solid #002D52;
+    margin-bottom: 10px;
+}
+
+.rentalDetail {
+    padding: 5%;
+    background-color: #002D52;
+}
+.rentalDetail p {
+    color: white;
+}
+
+.rentalDetail h4 {
+    color: #59C1FF;
 }
 
 /* Color Theme Swatches in Hex */

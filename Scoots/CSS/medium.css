@@ -143,4 +143,9 @@
     figure:hover {
         box-shadow: 1px 1px 8px 5px #59C1FF;
     }
+
+    /*Rental page*/
+    #rentals {
+        grid-template-columns: 1fr 1fr;
+    }
 }

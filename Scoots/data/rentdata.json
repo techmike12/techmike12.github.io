@@ -2,7 +2,7 @@
   "rent": [
     {
       "name": "Honda Metropolitan (49cc)",
-      "person": "1",
+      "person": "Max person(s): 1",
       "picture": "hondaMetro.jpg",
       "reservprices_full": "Reserve Full Day: $30",
       "reservprices_half":"Reserve Half Day: $30",
@@ -11,7 +11,7 @@
     },
     {
       "name": "Honda Dio",
-      "person": "2",
+      "person": "Max person(s): 2",
       "picture": "hondaDio.jpg",
       "reservprices_full": "Reserve Full Day: $40",
       "reservprices_half":"Reserve Half Day: $30",
@@ -20,7 +20,7 @@
     },
     {
       "name": "Honda PCX150",
-      "person": "2",
+      "person": "Max person(s): 2",
       "picture": "hondaPCX.jpg",
       "reservprices_full": "Reserve Full Day: $50",
       "reservprices_half":"Reserve Half Day: $40",
@@ -29,7 +29,7 @@
     },
     {
       "name": "Honda Pioneer ATV",
-      "person": "4",
+      "person": "Max person(s): 4",
       "picture": "hondaPioneer.jpg",
       "reservprices_full": "Reserve Full Day: $70",
       "reservprices_half":"Reserve Half Day: $50",
@@ -38,7 +38,7 @@
     },
     {
       "name": "Jeep Wrangler - 4 door with a/c",
-      "person": "5",
+      "person": "Max person(s): 5",
       "picture": "jeepAC.jpg",
       "reservprices_full": "Full Day: $100",
       "reservprices_half":"Half Day: $70",
@@ -47,7 +47,7 @@
     },
     {
       "name": "Jeep Wrangler - 2 door",
-      "person": "4",
+      "person": "Max person(s): 4",
       "picture": "jeep2door.jpg",
       "reservprices_full": "Half Day: $60",
       "reservprices_half":"Half Day: $70",
