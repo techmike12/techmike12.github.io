@@ -82,7 +82,7 @@ nav ul li a:hover {
 
 .contactUs {
     text-align: center;
-    background-color: #B86602;
+    background-color: #FFB200;
     border-radius: 12px;
     border: 2px solid #002D52;
     width: 300px;
@@ -151,6 +151,7 @@ p {
     max-width: 600px;
     margin: auto;
     background-color: #FFB200;
+    border: 2px solid #002D52;
     color: #002D52;
     border-radius: 12px;
     padding: 2%;
