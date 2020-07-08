@@ -145,6 +145,17 @@ p {
     font-family: "PT Serif", serif;
 }
 
+#explain {
+    font-size: 1em;
+    font-weight: bold;
+    max-width: 600px;
+    margin: auto;
+    background-color: #FFB200;
+    color: #002D52;
+    border-radius: 12px;
+    padding: 2%;
+}
+
 #title {
     margin-left: 55px;
     font-size: 2em;
