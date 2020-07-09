@@ -399,6 +399,10 @@ footer {
     font-size: 1em;
 }
 
+footer a:visited{
+    color: #59C1FF;
+}
+
 /*Image scroll*/
 img[data-src] {
     filter: blur(0.2em);
