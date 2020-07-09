@@ -307,7 +307,8 @@ form input.submitBtn {
     display: block;
     border: none;
     background-color: #B86602;
-    color: white;
+    color: black;
+    font-weight: bold;
     border-radius: 12px;
     padding: .75rem 1.5rem;
     margin-bottom: 2rem;
