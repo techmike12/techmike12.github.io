@@ -291,6 +291,10 @@ form label.top, form div {
     width: 200px;
 }
 
+#comment {
+    display: grid;
+}
+
 form label.top input, form label.top select {
     display: block;
     font-size: 1rem;
