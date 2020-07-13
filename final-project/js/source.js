@@ -1,11 +1,5 @@
-/*Build Chart*/
-
-/*Get Prices*/
-
-/*Load Images w/ prices*/
-
 function loadrentdata() {
-const requestURL = 'https://raw.githubusercontent.com/techmike12/techmike12.github.io/master/Scoots/data/rentdata.json';
+const requestURL = 'https://raw.githubusercontent.com/techmike12/techmike12.github.io/master/final-project/data/rentdata.json';
 
 fetch(requestURL)
   .then(function (response) {
