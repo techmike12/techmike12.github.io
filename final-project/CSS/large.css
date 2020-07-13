@@ -3,6 +3,10 @@
         grid-template-columns: repeat(3, 1fr);
     }
 
+    #summary {
+        right: -200px;
+    }
+
     #rental {
         grid-template-columns: 1fr 1fr 1fr;
     }
