@@ -62,7 +62,14 @@
                     <option value="Jeep Wrangler - 4 door with a/c">Jeep Wrangler - 4 door with a/c</option>
                     <option value="Jeep Wrangler - 2 door">Jeep Wrangler - 2 door</option>
                 </select>
-            <label class="top" for="period">How Many Days? &nbsp;&nbsp;&nbsp;
+            </label>
+            <label class="top">Full or Half Day?
+                <select name="rentalType" required>
+                    <option value="" selected disabled>Select...</option>
+                    <option value="Full Day">Full Day</option>
+                    <option value="Half Day">Half Day</option>
+                </select>
+            <label class="top" for="period">How Many Days? If full day selected &nbsp;&nbsp;&nbsp;
                 <input type="range" id="period" value="5" min="1" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)" required>
                         <span id="periodValue">5</span>
             </label>
