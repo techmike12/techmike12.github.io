@@ -238,10 +238,11 @@ header {
 
 .text {
   color: black;
+  background-color: #bbb;
   font-size: 1em;
   padding: 8px 12px;
   position: absolute;
-  bottom: -20px;
+  bottom: -10px;
   text-align: center;
   font-family: "PT Serif", serif;
 }
