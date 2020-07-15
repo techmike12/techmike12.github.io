@@ -85,7 +85,7 @@ nav ul li a:hover {
     background-color: #FFB200;
     border-radius: 12px;
     border: 2px solid #002D52;
-    width: 300px;
+    width: 400px;
     margin: auto;
     margin-bottom: 10px;
 }
@@ -198,8 +198,6 @@ header {
 
 /*Table summary for home page*/
 #rentals {
-    display: grid;
-    grid-template-columns: 1fr;
     margin: auto;
     text-align:center;
 }

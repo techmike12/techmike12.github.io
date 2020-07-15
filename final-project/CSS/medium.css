@@ -55,10 +55,6 @@
 		display: none;
     }
 
-    #rentals {
-        grid-template-columns: 1fr 1fr;
-    }
-
     /*Weather for home page*/
     .fiveDay {
         display: grid;
