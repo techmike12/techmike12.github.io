@@ -83,40 +83,62 @@
         </div>
     </section>
     <br>
-    <section id="rentals">
+    <div id="rentalHead">
         <h3>Rentals Available!</h3>
         <p>We have all kinds of rentals available to help you tour the island.</p>
         <a href="rentals.html">More info on rentals here</a>
-        <table>
-            <tr>
-                <th>Type</th>
-                <th>Seating</th>
-            </tr>
-            <tr>
-                <td>Honda Metro Scooter</td>
-                <td>1</td>
-            </tr>
-            <tr>
-                <td>Honda Dio Scooter</td>
-                <td>2</td>
-            </tr>
-            <tr>
-                <td>Honda PCX150 Scooter</td>
-                <td>2</td>
-            </tr>
-            <tr>
-                <td>Honda Pioneer ATV</td>
-                <td>4</td>
-            </tr>
-            <tr>
-                <td>Jeep Wrangler - 4 door with a/c</td>
-                <td>5</td>
-            </tr>
-            <tr>
-                <td>Jeep Wrangler - 2 door</td>
-                <td>4</td>
-            </tr>
-        </table>
+    </div>
+    <div class="slideshow-container">
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 6</div>
+      <img src="Images/hondaMetro.jpg" alt="Honda Metro Scooter">
+      <div class="text">Honda Metro Scooter. 49cc Engine. Automatic transmission. Max. Person(s): 1</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 6</div>
+      <img src="Images/hondaDio.jpg" alt="Honda Dio Scooter">
+      <div class="text">Honda Dio Scooter. 109.2 CC Engine. Automatic transmission. Max Person(s): 2</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 6</div>
+      <img src="Images/hondaPCX.jpg" alt="Honda PCX150 Scooter">
+      <div class="text">Honda PCX150 Scooter. 149cc Engine. Automatic transmission. Max Person(s): 2</div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">4 / 6</div>
+        <img src="Images/hondaPioneer.jpg" alt="Honda Pioneer ATV">
+        <div class="text">Honda Pioneer ATV. 475cc Engine. Automatic transmission. Max Person(s): 4</div>
+    </div>
+
+
+    <div class="mySlides fade">
+        <div class="numbertext">5 / 6</div>
+        <img src="Images/jeepAC.jpg" alt="Jeep Wrangler - 4 door with a/c">
+        <div class="text">Jeep Wrangler - 4 door with a/c. 3.6 L V-6 Engine. Automatic transmission. Max Person(s): 5</div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">6 / 6</div>
+        <img src="Images/jeep2door.jpg" alt="Jeep Wrangler - 2 door">
+        <div class="text">Jeep Wrangler - 2 door. 3.6 L V-6 Engine. Automatic transmission. Max Person(s): 4</div>
+    </div>
+
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+
+  <div id="dots">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" onclick="currentSlide(4)"></span>
+    <span class="dot" onclick="currentSlide(5)"></span>
+    <span class="dot" onclick="currentSlide(6)"></span>
+  </div>
         <form id="button" action="reservations.html">
             <input type="submit" value="Reserve Today!">
         </form>
