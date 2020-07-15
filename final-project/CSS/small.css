@@ -6,12 +6,12 @@
     display: none;
 }
 
-#button {
+.button {
     text-align: center;
     margin-bottom: 5px;
 }
 
-#button input {
+.button input {
     background-color: #FFB200;
     font-family: Krona One, sans-serif;
     color: #002D52;
