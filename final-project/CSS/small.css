@@ -332,6 +332,10 @@ header {
 }
 
 /*Contact page*/
+.contactInfo {
+    padding-top: 0%;
+}
+
 form {
     max-width: 900px;
     margin: auto;
