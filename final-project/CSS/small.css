@@ -198,6 +198,8 @@ header {
 
 /*Table summary for home page*/
 #rentals {
+    display: grid;
+    grid-template-columns: 1fr;
     margin: auto;
     text-align:center;
 }
